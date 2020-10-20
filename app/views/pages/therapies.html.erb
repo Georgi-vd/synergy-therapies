@@ -1,0 +1,11 @@
+
+
+<h1>Les therapies</h1>
+<ol>
+  <% @therapies.each do |therapy| %>
+    <li><%= therapy %></li>
+  <% end %>
+</ol>
+<%= link_to "Home", root_path %>
+
+<%= link_to "Formations", formations_path %>

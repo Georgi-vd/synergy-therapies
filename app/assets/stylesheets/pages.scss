@@ -1,0 +1,25 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$turquoise: #00F5D4;
+$bold: #FFD166;
+$gray: #F4F4F4;
+
+a {
+  text-decoration: none;
+  color: $turquoise;
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+h1{
+  color: $bold;
+}
+
+
+body {
+  background: $gray;
+}
+
