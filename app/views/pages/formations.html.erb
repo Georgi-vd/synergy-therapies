@@ -2,10 +2,10 @@
 <h1>Les Formations</h1>
 
 
-<ol>
+<ul>
   <% @formations.each do |formation| %>
     <li><%= formation %></li>
   <% end %>
-</ol>
+</ul>
 <%= link_to "Home", root_path %>
 <%= link_to "Thérapies", therapies_path %>

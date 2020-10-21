@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 $turquoise: #00F5D4;
-$bold: #FFD166;
+$gold: #FFD166;
 $gray: #F4F4F4;
 
 a {
@@ -15,11 +15,16 @@ a {
 }
 
 h1{
-  color: $bold;
+  color: $gold;
+  font-family: courier;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
 }
 
 
 body {
   background: $gray;
+
 }
 

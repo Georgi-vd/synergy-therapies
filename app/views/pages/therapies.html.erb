@@ -1,11 +1,12 @@
 
 
 <h1>Les therapies</h1>
-<ol>
+<ul>
   <% @therapies.each do |therapy| %>
     <li><%= therapy %></li>
   <% end %>
-</ol>
+</ul>
+
 <%= link_to "Home", root_path %>
 
 <%= link_to "Formations", formations_path %>
