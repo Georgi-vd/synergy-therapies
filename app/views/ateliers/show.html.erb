@@ -1,0 +1,8 @@
+<h1>Ateliers</h1>
+<% @ateliers.each do |product| %>
+  <h2><% atelier.name %></h2>
+  <h2><% atelier.description %></h2>
+  <h2><% atelier.tarif %></h2>
+  <h2><% atelier.temoignages %></h2>
+  <%= link_to "Allez voir tous les ateliers", atelier_path %>
+<% end %>

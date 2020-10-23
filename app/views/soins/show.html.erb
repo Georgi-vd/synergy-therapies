@@ -1,0 +1,8 @@
+<h1>Soins</h1>
+<% @soins.each do |product| %>
+  <h2><% soin.name %></h2>
+  <h2><% soin.description %></h2>
+  <h2><% soin.tarif %></h2>
+  <h2><% soin.temoignages %></h2>
+  <%= link_to "Allez voir tous les soins", soin_path %>
+<% end %>

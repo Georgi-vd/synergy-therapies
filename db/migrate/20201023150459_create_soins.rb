@@ -1,0 +1,13 @@
+class CreateSoins < ActiveRecord::Migration[5.2]
+  def change
+    create_table :soins do |t|
+      t.string :name
+      t.text :description
+      t.string :tarif
+      t.text :temoignages
+      t.references :product, foreign_key: true
+
+      t.timestamps
+    end
+  end
+end

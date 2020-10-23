@@ -1,0 +1,6 @@
+<h1>Actualitées</h1>
+<% @actualities.each do |product| %>
+  <h2><% actualite.name %></h2>
+  <h2><% actualite.description %></h2>
+  <%= link_to "Allez voir toutes les actualitées", actualite_path %>
+<% end %>
