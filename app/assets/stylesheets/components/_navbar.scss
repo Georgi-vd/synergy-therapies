@@ -1,12 +1,14 @@
 .navbar {
   justify-content: space-between;
-  background: $turquoise;
+
 }
 
-.navbar .navbar-collapse {
- flex-grow: 0;
+.navbar-collapse {
+ background: $turquoise;
 }
 
 .navbar .navbar-brand img {
   width: 40px;
 }
+
+
