@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
 
-  get 'about', to: 'pages#about'
-  get 'contact', to: 'pages#contact'
-  get 'therapies', to: 'pages#therapies'
-  get 'formations', to: 'pages#formations'
+  #get 'about', to: 'pages#about'
+  #get 'contact', to: 'pages#contact'
+  #get 'therapies', to: 'pages#therapies'
+  #get 'formations', to: 'pages#formations'
 
   resources :products, only: [:index, :show] do
     resources :soins, only: [:index, :show]
