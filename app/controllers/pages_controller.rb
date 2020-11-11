@@ -8,10 +8,13 @@ class PagesController < ApplicationController
   def contact
 
   end
-  def therapies
-    @therapies = ['Bilans bioénergétiques','Ateliers','Coaching','Animaux']
+  def soins
+    @soins = ['Bilans bioénergétiques','Traitement à distance','Coaching','Animaux']
   end
-  def formations
-    @formations = ["Gestion de l'hypersensibilité chez le cadre dirigeant","Hypersensibilité de l'enfant", "Hypersensibilité chez l'adulte", "Gestion du stress"]
+  def ateliers
+    @ateliers = ["Gestion de l'hypersensibilité chez le cadre dirigeant","Hypersensibilité de l'enfant", "Hypersensibilité chez l'adulte", "Gestion du stress"]
+  end
+  def actualités
+    @actualités = ["Boîte à outils", "Meditation en ligne"]
   end
 end

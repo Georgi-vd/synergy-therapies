@@ -28,6 +28,6 @@ atelier_1 = Atelier.create!(name:"Atelier gestion de l'hypersensibilité chez l'
 3 ateliers de 5 enfants maximum
 Rythme : 1 atelier tous les 15  jours
 Durée par atelier : 2 heures
-Prix par atelier : 75 CHF ", temoignages:"XX")
+Prix par atelier :  CHF ", temoignages:"XX")
 
 puts 'Finished!'
