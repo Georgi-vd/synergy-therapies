@@ -1,8 +1,7 @@
-<h1>Soins</h1>
-<% @soins.each do |soin| %>
-  <h2><% soin.name %></h2>
-  <h2><% soin.description %></h2>
-  <h2><% soin.tarif %></h2>
-  <h2><% soin.temoignages %></h2>
-  <%= link_to "Allez voir tous les soins", soin_path %>
-<% end %>
+<h1>Soin XX</h1>
+# appeler un lien par rapport à un id
+<h2><%= @soin.name %></h2>
+<p><%= @soin.description %></p>
+<p><%= @soin.tarif %></p>
+<p><%= @soin.temoignages %></p>
+

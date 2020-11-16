@@ -22,8 +22,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-5">
             <a class="nav-item nav-link" href="#">A propos</a>
-            <a class="nav-item nav-link" href="#">Soins</a>
-            <a class="nav-item nav-link" href="#">Ateliers</a>
+            <a class="nav-item nav-link" href="#"><%=link_to "Soins", soins_path%></a>
+            <a class="nav-item nav-link" href="#"><%= link_to "Ateliers", ateliers_path %></a>
             <a class="nav-item nav-link" href="#">Actualités</a>
           </div>
         </div>
@@ -82,13 +82,13 @@
               <h6 class="text-uppercase">Produits</h6>
               <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
               <p>
-                <a href="">Soins</a>
+                <a href=""><%= link_to "Soins", soins_path %></a>
               </p>
               <p>
-                <a href="">Formations</a>
+                <a href=""><%= link_to "Ateliers", ateliers_path %></a>
               </p>
               <p>
-                <a href="">Actualités</a>
+                <a href=""><%= link_to "Actualités", actualites_path %></a>
               </p>
             </div>
             <!-- Grid column -->

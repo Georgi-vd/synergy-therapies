@@ -29,5 +29,11 @@ atelier_1 = Atelier.create!(name:"Atelier gestion de l'hypersensibilité chez l'
 Rythme : 1 atelier tous les 15  jours
 Durée par atelier : 2 heures
 Prix par atelier :  CHF ", temoignages:"XX")
+atelier_2 = Atelier.create!(name:"Atelier gestion de l'hypersensibilité chez l'adulte", description:"Vous offrir avec votre enfant la capcité de transformer cet état d'hypersensibilité parfois vécu difficilement au quotidien en une force pour votre enfant et pour toute la famille.", tarif:"Programme sur 1,5 mois :
+3 ateliers de 5 enfants maximum
+Rythme : 1 atelier tous les 15  jours
+Durée par atelier : 2 heures
+Prix par atelier :  CHF ", temoignages:"XX")
+
 
 puts 'Finished!'

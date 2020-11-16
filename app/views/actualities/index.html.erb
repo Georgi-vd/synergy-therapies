@@ -1,5 +1,5 @@
 <h1>Actualitées</h1>
-<% @actualities.each do |product| %>
+<% @actualities.each do |actualite| %>
   <h2><% actualite.name %></h2>
   <h2><% actualite.description %></h2>
   <%= link_to "Allez voir ce soin", actualite_path(actualite) %>

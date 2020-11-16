@@ -3,7 +3,7 @@ class ActualitiesController < ApplicationController
     @actualities = Actualite.all
   end
 
-  def showactualitie
+  def show
     @actualite = Actualite.find(params[:id])
   end
 
