@@ -1,0 +1,8 @@
+.button {
+  background-color: $turquoise;
+  color: $middle_gray;
+
+  &:hover {
+  background-color: $middle_gray;
+  }
+}

@@ -1,4 +1,91 @@
-<h1>Renseignements - Rendez vous</h1>
-<p>formulaire</p>
+<div class="container mb-5 mt-5">
+  <h1>Renseignements <br> Rendez-vous</h1>
+</div>
+<div class="container mb-5 mt-5" >
+  <h4>Pour tout renseignement ou prise de rendez-vous, merci de compléter le formulaire ci-dessous :</h4>
+</div>
 
+<form>
+<div class="container mb-5 mt-5">
+
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer01"></label>
+      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Votre prénom" required>
+      <div class="valid-feedback">
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationServer02"></label>
+      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Votre nom" required>
+      <div class="valid-feedback">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03"></label>
+      <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Votre adresse e-mail" required>
+      <div class="invalid-feedback">
+        Merci de fournir votre email.
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03"></label>
+      <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Votre numéro de téléphone" required>
+      <div class="invalid-feedback">
+        Merci de fournir votre numéro de téléphone.
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="form-group mt-4">
+      <label for="validationServer03">Sélectionner si il s'agit d'un rendez-vous ou d'une demande de renseignement :</label>
+      <select class="custom-select" required>
+        <option value="1">Rendez-vous</option>
+        <option value="2">Demande de renseignements</option>
+      </select>
+      <div class="invalid-feedback">Sélectionner si il s'agit d'un rendez-vous ou d'une demande de renseignement.
+    </div>
+
+    <div class="form-group mt-4">
+      <label for="validationServer03">Sélectionner le soin, le coaching, l'atelier de votre choix :</label>
+      <select class="custom-select" required>
+        <option value="1">Soins bioénergétiques ACMOS</option>
+        <option value="2">Soins à distance ACMOS</option>
+        <option value="3">Soins sur les animaux</option>
+        <option value="4">Coaching de vie</option>
+        <option value="4">Coaching d'entreprises</option>
+        <option value="5">Ateliers - Gestion de l'hypersensibilité chez l'enfant</option>
+        <option value="5">Ateliers - Gestion de l'hypersensibilité chez l'adulte</option>
+        <option value="6">Actualités - Plein air </option>
+        <option value="6">Actualités - Refuge </option>
+      </select>
+      <div class="invalid-feedback">Sélectionner le soin, le coaching, l'atelier de votre choix.
+      </div>
+    </div>
+
+
+
+
+  <div class="form-row">
+    <div class="col -6">
+      <label for="validationServer05"></label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Message" required>
+      <div class="invalid-feedback">
+        Ecrire votre message.
+      </div>
+    </div>
+  </div>
+
+
+    <h5 class= "mt-5">Nous répondrons à votre message au plus vite. </h5>
+    <p class= "mt-5"> * Toutes les données transmises par l’utilisateur sont traitées conformément aux dispositions de la loi fédérale sur la protection des données (LPD).</p>
+
+    <button class="btn btn-primary button mt-3" type="submit">Envoyer</button>
+  </form>
+</div>
 
