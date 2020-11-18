@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   root to: 'products#index'
 
-  #get 'about', to: 'pages#about'
-  #get 'contact', to: 'pages#contact'
+  get 'about', to: 'pages#about'
+  get 'contact', to: 'pages#contact'
 
   resources :soins, only: [:index, :show]
   resources :ateliers, only: [:index, :show]

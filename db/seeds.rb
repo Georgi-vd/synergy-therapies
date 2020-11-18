@@ -11,7 +11,7 @@ Product.destroy_all
 puts "Creations de produits"
 soins = { name: "Soins" }
 ateliers = { name: "Ateliers" }
-actualités = { name: "Actualités" }
+actus = { name: "Actus" }
 
 [soins, ateliers, actualités].each do |attributes|
   products = Product.create!(attributes)
