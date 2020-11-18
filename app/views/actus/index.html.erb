@@ -1,7 +1,41 @@
+<div class="container mb-5 mt-5">
+    <h1>Actualitées</h1>
+</div>
 
-<h1>Actualitées</h1>
-<% @actus.each do |actu| %>
-  <h2><% actu.name %></h2>
-  <h2><% actu.description %></h2>
-  <%= link_to "Allez voir ce soin", actu_path(actu) %>
-<% end %>
+
+<div class="container">
+  <div class="row">
+    <div class="cards">
+
+      <div class="col-6">
+        <div class="card text-center">
+            <img src="images/cabinet.jpeg" class="card-img-top" alt="image">
+              <div class="card-body">
+              <h5 class="card-title">Concert sonothérapeutique <br> en plein air</h5>
+              <p class="card-text">Un moment d'évasion et de reconnexion avec ces sens</p>
+              <p>Offrir l'opportunité à votre corps de se reconnecter à son plein potentiel.
+              Quête de vision par la reconnection avec la nature</p>
+              <p>Tarif : 25CHF </p>
+              <p>Durée : 2h</p>
+              </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card text-center">
+            <img src="images/cabinet.jpeg" class="card-img-top" alt="image">
+              <div class="card-body">
+              <h5 class="card-title">Concert sonothérapeutique <br> en refuge</h5>
+              <p class="card-text">Réancrez-vous pour reprendre le chemin de votre vie</p>
+              <p>Offrir l'opportunité à votre corps de se reconnecter à son plein potentiel.
+              Rencontrer et partager avec des personnes éveillées aux énergies</p>
+              <p>Tarif comprenant une collation : 130CHF </p>
+              <p>Durée: 2h </p>
+              </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
