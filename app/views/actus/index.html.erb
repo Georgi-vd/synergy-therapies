@@ -1,0 +1,7 @@
+index.html.erb
+<h1>Actualitées</h1>
+<% @actus.each do |actu| %>
+  <h2><% actu.name %></h2>
+  <h2><% actu.description %></h2>
+  <%= link_to "Allez voir ce soin", actu_path(actu) %>
+<% end %>
