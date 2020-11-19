@@ -3,15 +3,18 @@
   color: $middle_gray;
 
   &:hover {
-  color: $middle_gray;
+  color: white;
   }
 }
 
 .button {
-color: white;
+color: $middle_gray;
 padding: 15px 25px;
 border-radius: 10px;
 font-weight: bold;
 background: $turquoise;
 transition: background 0.3s ease;
+border: none;
+font-size: 16px;
+font-weight: normal;
 }
