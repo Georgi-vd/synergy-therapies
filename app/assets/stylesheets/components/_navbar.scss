@@ -1,6 +1,17 @@
 .navbar {
   justify-content: space-between;
   padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 
 .navbar-collapse {
@@ -25,3 +36,4 @@
   flex-flow: row wrap;
   justify-content: flex-end;
 }
+
