@@ -15,26 +15,29 @@
   </head>
 
   <body>
+    <!-- navbar -->
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><%=link_to "Combi'Therapies", root_path%></a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="navbar-brand ml-2">
+          <a class="navbar-brand "<%=link_to "Combi'Therapies", root_path%></a>
+        </div>
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-5">
-            <a class="nav-item nav-link" href="#"><%=link_to "Home", root_path%></a>
-            <a class="nav-item nav-link" href="#"><%=link_to "A propos", about_path%></a>
-            <a class="nav-item nav-link" href="#"><%=link_to "Soins", soins_path%></a>
-            <a class="nav-item nav-link" href="#"><%= link_to "Ateliers", ateliers_path %></a>
-            <a class="nav-item nav-link" href="#"><%= link_to "Actualités", actus_path %></a>
+        <div class="collapse navbar-collapse" >
+          <div class="navbar-nav ">
+            <a class="nav-item nav-link"<%=link_to "Home", root_path%></a>
+            <a class="nav-item nav-link"<%=link_to "A propos", about_path%></a>
+            <a class="nav-item nav-link"<%=link_to "Soins", soins_path%></a>
+            <a class="nav-item nav-link"<%= link_to "Ateliers", ateliers_path %></a>
+            <a class="nav-item nav-link"<%= link_to "Actualités", actus_path %></a>
+            <a class="nav-item nav-link"<%= link_to "Contact", contact_path %></a>
           </div>
         </div>
 
-        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-5">
-            <a class="nav-item nav-link ml-5" href="#">Français</a>
-            <a class="nav-item nav-link " href="#">English</a>
-          </div>
+        <div class="collapse navbar-collapse navbar-nav droite" >
+            <a class="nav-item nav-link ">Français</a>
+            <a class="nav-item nav-link ">English</a>
         </div>
+
       </nav>
     </div>
 
@@ -46,9 +49,9 @@
 
       <!-- Footer -->
       <br><br><br>
-      <footer class="page-footer font-small unique-color-dark">
+      <footer class="footer font-small">
 
-        <div style="background-color: #DCB669;">
+        <div class="footer_line" >
           <div class="container">
 
             <!-- Grid row-->
