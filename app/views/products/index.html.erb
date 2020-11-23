@@ -1,58 +1,25 @@
 
 
  <!-- code a Hero / Banner section -->
-<div class="banner">
-  <img src="" alt="">
+<div class="banner" style="background-image: url('<%= image_path 'cabinet.jpeg' %>');">
+
   <div class="container">
     <h1> Institut Combi'Thérapies</h1>
-      <p> This is a new experience that will change your life </p>
+    <p> This is a new experience that will change your life </p>
   </div>
 </div>
 
   <!-- code a "How it works" section -->
-<div class="container">
-  <h2> How it works</h2>
-  <div class="cards">
-    <div class="card">
-      <img src="../images/cabinet.jpeg" alt="Soins">
-      <h3> Soins</h3>
-    </div>
-    <div class="card">
-      <img src="../../images/cabinet_table.jpeg" alt="Ateliers">
-      <h3> Ateliers</h3>
-    </div>
-    <div class="card">
-      <img src="images/cabinet.jpeg" alt="Actualités">
-      <h3> Actualités</h3>
-    </div>
-  </div>
-</div>
 
 
-
-
-
-<!-- code avant alone -->
-<div class="container">
-  <div class="container mb-5 ">
-    <div class="row justify-content-center pt-4 pb-4">
-      <div class="col-12 col-lg-8">
-
-        <div class="card text-center">
-          <h1>Institut Combi'Thérapies</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
+  <div class="container mt-5">
     <div class="row">
       <div class="cards">
 
         <div class="col-12 col-lg-4">
           <div class="card text-center">
 
-              <img src="images/cabinet.jpeg" class="card-img-top" alt="cabinet">
+              <img style="background-image: url('<%= image_path 'antenne_Lecher.jpeg' %>');"class="card-img-top" >
                 <div class="card-body">
                 <h5 class="card-title"><%= link_to "Soins", soins_path %></h5>
                 <p class="card-text">Combi-Thérapies vous propose une thérapie multifacorielle combinant des soins sur place et à distance</p>
@@ -84,7 +51,6 @@
       </div>
     </div>
   </div>
-</div>
 
 
 

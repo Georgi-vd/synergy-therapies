@@ -1,18 +1,14 @@
 
 .banner{
-  background-image: url('../../images/cabinet.jpeg');
   background-size: cover;
   background-position: center;
   padding: 100px 0;
+  opacity: .8;
 }
 
 .banner p{
   font-size: 35px;
-  opacity: .7;
-  font-size: 20px;
-}
-
-.banner p{
+  color: white;
   margin-bottom: 50px;
   font-size: 25px;
 }
