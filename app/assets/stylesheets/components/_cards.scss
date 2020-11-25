@@ -26,3 +26,23 @@
 }
 
 
+.big-cards  {
+  width: 100%;
+}
+
+.big-card {
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+
+  border: 1px solid rgb(230,230,230);
+  padding: 30px;
+  width: 100%;
+  background-color: white;
+  color: $middle-gray;
+}
+
+.big-card-body p {
+  color: $middle-gray;
+}
+
+
