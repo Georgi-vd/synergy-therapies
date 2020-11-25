@@ -15,114 +15,116 @@
   </head>
 
   <body>
+    <div class="big-container">
     <!-- navbar -->
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <div class="navbar-brand ml-2">
-          <a class="navbar-brand "<%=link_to "Combi'Therapies", root_path%></a>
-        </div>
-
-        <div class="collapse navbar-collapse" >
-          <div class="navbar-nav ">
-            <a class="nav-item nav-link"<%=link_to "Home", root_path%></a>
-            <a class="nav-item nav-link"<%=link_to "A propos", about_path%></a>
-            <a class="nav-item nav-link"<%=link_to "Soins", soins_path%></a>
-            <a class="nav-item nav-link"<%= link_to "Ateliers", ateliers_path %></a>
-            <a class="nav-item nav-link"<%= link_to "Actualités", actus_path %></a>
-            <a class="nav-item nav-link"<%= link_to "Contact", contact_path %></a>
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <div class="navbar-brand ml-2">
+            <a class="navbar-brand "<%=link_to "Combi'Therapies", root_path%></a>
           </div>
-        </div>
 
-        <div class="collapse navbar-collapse navbar-nav droite" >
-            <a class="nav-item nav-link ">Français</a>
-            <a class="nav-item nav-link ">English</a>
-        </div>
+          <div class="collapse navbar-collapse" >
+            <div class="navbar-nav ">
+              <a class="nav-item nav-link"<%=link_to "Home", root_path%></a>
+              <a class="nav-item nav-link"<%=link_to "A propos", about_path%></a>
+              <a class="nav-item nav-link"<%=link_to "Soins", soins_path%></a>
+              <a class="nav-item nav-link"<%= link_to "Ateliers", ateliers_path %></a>
+              <a class="nav-item nav-link"<%= link_to "Actualités", actus_path %></a>
+              <a class="nav-item nav-link"<%= link_to "Contact", contact_path %></a>
+            </div>
+          </div>
 
-      </nav>
-    </div>
+          <div class="collapse navbar-collapse navbar-nav droite" >
+              <a class="nav-item nav-link ">Français</a>
+              <a class="nav-item nav-link ">English</a>
+          </div>
+
+        </nav>
+      </div>
 
 
-      <!-- code le contenu de la page -->
-    <div>
-      <%= yield %>
-    </div>
+        <!-- code le contenu de la page -->
+      <div>
+        <%= yield %>
+      </div>
 
-      <!-- Footer -->
-      <br><br><br>
-      <footer class="footer font-small">
+        <!-- Footer -->
+        <br><br><br>
+        <footer class="footer font-small">
 
-        <div class="footer_line" >
-          <div class="container">
+          <div class="footer_line" >
+            <div class="container">
 
-            <!-- Grid row-->
-            <div class="row py-4 d-flex align-items-center">
+              <!-- Grid row-->
+              <div class="row py-4 d-flex align-items-center">
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row-->
+
+            </div>
+          </div>
+
+          <!-- Footer Links -->
+          <div class="container text-center text-md-left mt-1">
+
+            <!-- Grid row -->
+            <div class="row mt-3">
 
               <!-- Grid column -->
-              <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-0">
+
+                <!-- Links -->
+                <h6 class="text-uppercase"><%=link_to "Combi'Therapies", root_path%></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                  <a href=""><%= link_to "Soins", soins_path %></a>
+                </p>
+                <p>
+                  <a href=""><%= link_to "Ateliers", ateliers_path %></a>
+                </p>
+                <p>
+                  <a href=""><%= link_to "Actualités", actus_path %></a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-0">
+
+                <!-- Links -->
+                <h6 class="text-uppercase"><%= link_to "Contact", contact_path %></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                  <i class="fas fa-home"></i>Saint-Prex, Vaud, Suisse</p>
+                <p>
+                  <i class="fas fa-envelope"></i>info@combi-therapy</p>
 
               </div>
               <!-- Grid column -->
 
             </div>
-            <!-- Grid row-->
+            <!-- Grid row -->
 
           </div>
-        </div>
+          <!-- Footer Links -->
 
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left mt-1">
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-1">© 2020 Copyright</div>
+          <!-- Copyright -->
 
-          <!-- Grid row -->
-          <div class="row mt-3">
-
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-0">
-
-              <!-- Links -->
-              <h6 class="text-uppercase"><%=link_to "Combi'Therapies", root_path%></h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>
-                <a href=""><%= link_to "Soins", soins_path %></a>
-              </p>
-              <p>
-                <a href=""><%= link_to "Ateliers", ateliers_path %></a>
-              </p>
-              <p>
-                <a href=""><%= link_to "Actualités", actus_path %></a>
-              </p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-0">
-
-              <!-- Links -->
-              <h6 class="text-uppercase"><%= link_to "Contact", contact_path %></h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>
-                <i class="fas fa-home"></i>Saint-Prex, Vaud, Suisse</p>
-              <p>
-                <i class="fas fa-envelope"></i>info@combi-therapy</p>
-
-            </div>
-            <!-- Grid column -->
-
-          </div>
-          <!-- Grid row -->
-
-        </div>
-        <!-- Footer Links -->
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-1">© 2020 Copyright</div>
-        <!-- Copyright -->
-
-      </footer>
-      <!-- Footer -->
+        </footer>
+        <!-- Footer -->
+      </div>
     </div>
   </body>
 </html>
