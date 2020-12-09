@@ -1,7 +1,8 @@
 
 .cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-direction: row;
   margin-bottom: 30px;
   flex-wrap: wrap;
 }
@@ -28,7 +29,7 @@
 
 
 .big-cards  {
-  width: 100%;
+  flex-basis: 100%;
 }
 
 .big-card {
