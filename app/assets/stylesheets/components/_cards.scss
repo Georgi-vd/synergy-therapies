@@ -1,10 +1,11 @@
 
 .cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
   margin-bottom: 30px;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 

@@ -2,10 +2,20 @@
   background-color: $turquoise;
   background-position: center;
   opacity: .7;
+  position: fixed;
+  height: 20%;
+  bottom: 0;
+  width: 100%;
 }
+
+.border-color {
+    border-color: #DCB669 !important;
+}
+
 
 .footer_line {
   background-color: #DCB669;
+  height: 30px;
 }
 
 .footer-copyright {
