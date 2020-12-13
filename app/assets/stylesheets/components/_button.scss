@@ -13,12 +13,22 @@
   color: white;
   }
 
-  &:any-link {
-  text-decoration: none!important;
-  color: $middle_gray;
-  }
-
 }
 
 
+.button-soin {
+  background-color: $turquoise;
+  opacity: 0.5;
+  color: $middle_gray;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  border: none;
+  font-size: 16px;
+  font-weight: normal;
 
+  &:hover {
+  color: white;
+  }
+}
