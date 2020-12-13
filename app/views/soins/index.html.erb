@@ -186,13 +186,3 @@ La spécificité de cette Méthode est qu'elle agit dans le profond, sur la caus
   </div>
 </div>
 
-
-<div>
-  <% @soins.each do |soin| %>
-    <h2><% soin.name %></h2>
-    <h2><% soin.description %></h2>
-    <h2><% soin.tarif %></h2>
-    <h2><% soin.temoignages %></h2>
-    <%= link_to "Allez voir ce soin", soin_path(soin) %>
-  <% end %>
-</div>
