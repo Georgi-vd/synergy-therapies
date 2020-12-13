@@ -47,4 +47,41 @@
   color: $middle-gray;
 }
 
+.big-cards  {
+  flex-basis: 100%;
+}
 
+
+
+.soin-card {
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  border: 1px solid rgb(230,230,230);
+  padding: 30px;
+  width: 100%;
+  background-color: white;
+  color: $middle-gray;
+  margin-bottom: 25px;
+}
+
+.soin-card-body p {
+  color: $middle-gray;
+}
+
+.soin-cards  {
+  flex-basis: 100%;
+}
+
+
+.sous-titre {
+  background-color: $violet;
+  opacity: 0.7;
+  flex-basis: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  border: 1px solid rgb(230,230,230);
+  padding: 30px;
+  width: 100%;
+  color: white;
+  margin-bottom: 15px;
+}
