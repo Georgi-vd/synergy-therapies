@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'simple_form'
 gem 'autoprefixer-rails'
-gem 'font-awesome-sass'
+gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 
 group :development, :test do

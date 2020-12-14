@@ -68,11 +68,17 @@
   background-color: white;
   color: $middle-gray;
   margin-bottom: 25px;
+
+  &:hover {
+  border-radius: 8px;
+  border: 1px solid $violet;
+  }
 }
 
 .soin-card-body p {
   color: $middle-gray;
 }
+
 
 .soin-cards  {
   flex-basis: 100%;
