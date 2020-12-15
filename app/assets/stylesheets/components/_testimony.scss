@@ -2,7 +2,8 @@
 
 .testimonials
 {
-    margin: 200px auto 100px;
+    margin: 50px auto 50px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     grid-gap: 20px;
@@ -34,6 +35,7 @@
     z-index: 1;
     transition: 0.5s;
 }
+
 .testimonials .card:hover .layer
 {
    top: 0;
@@ -77,3 +79,8 @@
 {
     color: #fff;
 }
+
+
+
+
+

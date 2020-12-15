@@ -1,16 +1,22 @@
 
 .cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
   margin-bottom: 30px;
   flex-wrap: wrap;
   width: 100%;
+  margin: 50px auto 50px;
 }
 
 
 
 .card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
   border-radius: 8px;
   box-shadow: 0 0 5px rgb(230,230,230);
   text-align: center;
@@ -100,14 +106,40 @@
 
 .sous-titre {
   background-color: $violet;
-  opacity: 0.7;
+  opacity: 0.5;
   flex-basis: 100%;
   border-radius: 8px;
   box-shadow: 0 0 5px rgb(230,230,230);
   border: 1px solid rgb(230,230,230);
-  padding: 30px;
+  padding: 20px;
   width: 100%;
   color: white;
   margin-bottom: 15px;
-  margin-top: 25px;
+  margin-top: 65px;
+  padding-left: 25px;
 }
+
+.sous-titre-light {
+  background-color: $violet;
+  opacity: 0.4;
+  flex-basis: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  border: 1px solid rgb(230,230,230);
+  padding: 10px;
+  width: 100%;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+
+.sous-titre-light h2
+{
+   font-size: 30px;
+   font-weight: 550;
+   line-height: 24px;
+   color:#fff;
+  font-style: italic;
+  text-align: center;
+}
+
