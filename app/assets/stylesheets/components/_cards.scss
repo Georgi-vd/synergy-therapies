@@ -47,6 +47,7 @@
 .card-title {
   font-size: 30px;
   font-weight: bold;
+  color: $violet-light;
 }
 
 
@@ -86,7 +87,7 @@
 
   &:hover {
   border-radius: 8px;
-  border: 1px solid $violet;
+  border: 1px solid $violet-light;
   }
 }
 

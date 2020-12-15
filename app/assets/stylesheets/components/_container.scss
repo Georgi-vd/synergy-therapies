@@ -9,6 +9,19 @@
   flex-wrap: wrap;
 }
 
+.container-title {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $turquoise;
+  margin: 0px;
+  padding-top : 10px;
+  padding-left: 10px;
+  width: 100%;
+  border-radius: 8px;
+  opacity: 0.5;
+}
+
+
 .scroll-container  {
   display: block;
   width: 100%;
