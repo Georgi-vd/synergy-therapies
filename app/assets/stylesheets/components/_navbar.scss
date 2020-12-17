@@ -25,7 +25,8 @@ body {
 }
 
 .navbar-collapse {
-  background: linear-gradient($turquoise, white);
+  background: $turquoise;
+  opacity: 0.7;
   width: 100px;
 }
 

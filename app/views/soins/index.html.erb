@@ -1,7 +1,7 @@
 <div class="container justify-content-center pt-5 mb-5 mt-5">
-  <div class="container-title text-center justify-content-center">
+  <div class="container-title banner-flex text-center justify-content-center">
     <h1><i class="fas fa-sun"></i> Faites rayonner <i class="fas fa-sun"></i></h1>
-    <h3><br>Votre santé, <br>celle de votre enfant, <br>de votre animal</h3>
+    <h3><br>Votre santé, celle de votre enfant, de votre animal</h3>
   </div>
 </div>
 
@@ -14,6 +14,7 @@
     <div class="soin-cards">
 
       <div class="col-12 col-lg-12">
+        <%= link_to contact_path, :action => 'go' do %>
         <div class="soin-card text-center">
 
             <div class="soin-card-body">
@@ -25,10 +26,11 @@
                 <br><br>La spécificité de la méthode Acmos est qu'elle agit dans le profond, <br>sur la cause des symptômes et permet de déprogrammer des mémoires négatives.</p>
             </div>
             <div class = "container justify-content-center mt-4">
-              <button class="button-soin mb-3 mr-5 type ="submit"><i class="fas fa-coins mr-2"></i><%= link_to "150 CHF", contact_path %></button>
+              <button class="button-soin mb-3 mr-5 type ="submit"><i class="fas fa-coins mr-2"></i> 150 CHF </button>
               <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i><%= link_to "1h30 - 2h", contact_path %></button>
             </div>
-        </div>
+          </div>
+        <% end %>
       </div>
 
       <div class="col-12 col-lg-12">
