@@ -17,9 +17,11 @@
   align-items: center;
   box-sizing: border-box;
   border-radius: 8px;
-  box-shadow: 0 5 15px rgba(0,0,0,.5);
+  box-shadow: 0 5 15px rgb(230,230,230);
   text-align: center;
-  padding: 30px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
   width: 30%;
   margin-right: 3px;
   flex-wrap: wrap;
@@ -35,6 +37,11 @@
    &:hover h5{
   color: white;
   }
+}
+
+.card-body {
+  padding-bottom: 2px;
+  padding-top:2px;
 }
 
 // /*responsive*/
@@ -62,12 +69,13 @@
 }
 .card img {
   height: 100px;
-    border-radius: 50px;
-    width: 100px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+  border-radius: 50px;
+  width: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 10px rgb(230,230,230);
+  border: 0.5px solid $violet-light;
 }
 
 
@@ -127,7 +135,7 @@
 
   &:hover {
   border-radius: 8px;
-  border: 1px solid $violet-light;
+  border: 2px solid $violet-light;
   }
 }
 
