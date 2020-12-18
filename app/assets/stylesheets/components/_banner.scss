@@ -8,14 +8,37 @@
 
 }
 
+.banner h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+}
+
 .banner p{
   font-size: 35px;
   color: white;
   margin-bottom: 50px;
-  font-size: 25px;
+  font-weight: 550;
+  font-family: $headers-font;
 }
+
+
 
 .banner-flex {
   display: flex;
   flex-direction: column;
+}
+
+.banner-flex h3{
+  color: white;
+}
+
+.banner_middle{
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0;
+  padding-top: 75px;
+  opacity: .8;
+  border-radius: 8px;
+
 }

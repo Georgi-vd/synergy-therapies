@@ -1,7 +1,7 @@
-<div class="container justify-content-center pt-5 mb-5 mt-5">
+<div class="container justify-content-center pt-5 mb-0 mt-5">
   <div class="container-title banner-flex text-center justify-content-center">
-    <h1><i class="fas fa-sun"></i> Faites rayonner <i class="fas fa-sun"></i></h1>
-    <h3><br>Votre santé, celle de votre enfant, de votre animal</h3>
+    <h1></i> Rayonnez, Vibrer, Vivez </h1>
+    <h3>Votre santé, la santé de votre enfant et de votre animal</h3>
   </div>
 </div>
 
@@ -34,6 +34,7 @@
       </div>
 
       <div class="col-12 col-lg-12">
+        <%= link_to contact_path, :action => 'go' do %>
         <div class="soin-card text-center">
 
           <div class="soin-card-body">
@@ -47,10 +48,12 @@
             <button class="button-soin mb-3 mr-5"><i class="fas fa-broadcast-tower"></i></button>
           </div>
         </div>
+        <% end %>
       </div>
 
 
       <div class="col-12 col-lg-12">
+        <%= link_to contact_path, :action => 'go' do %>
         <div class="soin-card text-center">
 
           <div class="soin-card-body">
@@ -62,11 +65,12 @@
             <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i> 30 min</button>
           </div>
         </div>
+        <% end %>
       </div>
 
       <div class="col-12 col-lg-12">
         <div class="soin-card text-center">
-
+          <%= link_to contact_path, :action => 'go' do %>
           <div class="soin-card-body">
             <h5 class="card-title">Coaching</h5>
             <p class="card-text">Le life coach ou coach de vie aide le coaché à créer un véritable projet de
@@ -86,11 +90,12 @@
             <button class="button-soin mb-3 mr-5"><i class="fas fa-user-friends"></i> ou <i class="fas fa-video"></i></button>
           </div>
         </div>
+        <% end %>
       </div>
 
       <div class="col-12 col-lg-12">
         <div class="soin-card text-center">
-
+        <%= link_to contact_path, :action => 'go' do %>
           <div class="soin-card-body">
             <h5 class="card-title">Coach d'entreprises</h5>
             <p class="card-text">Le coach d'entreprises propose une méthodologie très pragmatique pour atteindre les objectifs professionnels et personnels des managers, des équipes et des dirigeants.
@@ -107,6 +112,7 @@
             <button class="button-soin mb-3 mr-5"><i class="fas fa-user-friends"></i> ou <i class="fas fa-video"></i></button>
           </div>
         </div>
+        <% end %>
       </div>
 
     </div>
@@ -123,24 +129,26 @@
 
       <div class="col-12 col-lg-12">
         <div class="soin-card text-center">
+          <%= link_to contact_path, :action => 'go' do %>
 
             <div class="soin-card-body">
               <h5 class="card-title">Soin bioénergétique Acmos</h5>
               <p class="card-text">La Méthode ACMOS a pour objet de permettre au corps de reprendre le contrôle de ses circuits énergétiques afin qu'il retrouve sa capacité d'autogestion et ce, dès le premier bilan.
                 <br> <br>Basée entre autre sur la médecine traditionnelle chinoise, elle met en œuvre un protocole rigoureux d'investigation et s'appuie continuellement sur la mesure scientifique. Celle-ci est effectuée au moyen d'un appareillage sophistiqué, fruit de longues années de recherche et de mise au point.
                 <br><br>Des médecins et des spécialistes du monde entier ont collaboré à ces travaux.
-La spécificité de cette Méthode est qu'elle agit dans le profond, sur la cause des symptômes et permet de déprogrammer des mémoires négatives.</p>
+                La spécificité de cette Méthode est qu'elle agit dans le profond, sur la cause des symptômes et permet de déprogrammer des mémoires négatives.</p>
             </div>
             <div class = "container justify-content-center mt-4">
               <button class="button-soin mb-3 mr-5 "><i class="fas fa-coins mr-2"></i> 120 CHF</button>
               <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i> 1h - 1h15 </button>
             </div>
+          <% end %>
         </div>
       </div>
 
      <div class="col-12 col-lg-12">
         <div class="soin-card text-center">
-
+          <%= link_to contact_path, :action => 'go' do %>
           <div class="soin-card-body">
             <h5 class="card-title">Bain sonore thérapeutique</h5>
             <p class="card-text">Votre corps est traversé d'ondes émanant des bols tibétains, permettant de réharmoniser votre état vibratoire de manière rapide.</p>
@@ -150,6 +158,7 @@ La spécificité de cette Méthode est qu'elle agit dans le profond, sur la caus
             <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i> 15 min </button>
           </div>
         </div>
+        <% end %>
       </div>
 
     </div>
@@ -162,6 +171,7 @@ La spécificité de cette Méthode est qu'elle agit dans le profond, sur la caus
     <h3><i class="fas fa-feather-alt ml-5 mr-3"></i>Pour votre animal de compagnie</h3>
     </div>
     <div class="soin-cards mb-5">
+      <%= link_to contact_path, :action => 'go' do %>
       <div class="col-12 col-lg-12 ">
         <div class="soin-card text-center">
 
@@ -175,6 +185,7 @@ La spécificité de cette Méthode est qu'elle agit dans le profond, sur la caus
             <button class="button-soin mb-3 mr-5"><i class="fas fa-broadcast-tower"></i></button>
           </div>
         </div>
+      <% end %>
       </div>
     </div>
   </div>
