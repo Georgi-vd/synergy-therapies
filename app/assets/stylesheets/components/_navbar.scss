@@ -26,7 +26,6 @@ body {
 
 .navbar-collapse {
   background: $violet-light;
-  opacity: 0.7;
   width: 100px;
 }
 
@@ -49,12 +48,15 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: $turquoise;
   font-size: 19px;
   font-weight: 550;
   font-family: $headers-font;
    &:hover {
-  color: $middle-gray;
+  color:  #40E0D0;
+  text-shadow:
+$violet-light 0.5px 0.5px,
+
   }
 }
 
