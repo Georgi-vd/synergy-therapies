@@ -25,7 +25,7 @@ body {
 }
 
 .navbar-collapse {
-  background: $turquoise;
+  background: $violet-light;
   opacity: 0.7;
   width: 100px;
 }
@@ -36,13 +36,27 @@ body {
   width: 100px;
 }
 
+.navbar-brand a {
+  font-size: 19px;
+  font-weight: 550;
+  font-family: $headers-font;
+}
+
 .navbar a {
-    color: $middle-gray;
-     &:hover {
-    background-color: white;
+  &:hover {
+  background-color: white;
   }
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 19px;
+  font-weight: 550;
+  font-family: $headers-font;
+   &:hover {
+  color: $middle-gray;
+  }
+}
 
 .droite {
   display: flex;

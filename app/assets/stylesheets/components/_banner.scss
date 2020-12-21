@@ -15,11 +15,12 @@
 }
 
 .banner p{
-  font-size: 35px;
+  font-size: 30px;
   color: white;
   margin-bottom: 50px;
   font-weight: 550;
   font-family: $headers-font;
+  font-style: italic;
 }
 
 
@@ -40,5 +41,43 @@
   padding-top: 75px;
   opacity: .8;
   border-radius: 8px;
+}
 
+#t {
+  color: #33FF9F ;
+}
+
+#e {
+  color: #D133FF;
+}
+
+#r1 {
+  color: #FF333F ;
+}
+
+#r2 {
+  color: #FF33E0 ;
+}
+#e2 {
+  color: #FCFF33;
+}
+
+#apo {
+  color: #33FF52;
+}
+#h  {
+  color: #33FFF6;
+}
+#a {
+  color: #FF333F ;
+}
+
+#p1 {
+  color: #4CFF33 ;
+}
+#p2 {
+  color:#3342FF;
+}
+#y {
+  color: #FFA833;
 }
