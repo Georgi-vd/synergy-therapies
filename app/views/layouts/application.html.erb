@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Terre'Happy</title>
+    <title>Energies & Guérison</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,10 +18,51 @@
   <body>
 
     <!-- navbar -->
-      <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div>
+
+
+    <!-- responsive navbar -->
+      <nav>
+        <div class="logo">
+          <a <%=link_to "Energies & Guérison", root_path%></a>
+        </div>
+
+        <ul class="nav-links">
+          <li>
+            <a <%=link_to "Home", root_path%></a>
+          </li>
+          <li>
+            <a <%=link_to "Soins", soins_path%></a>
+          </li>
+          <li>
+            <a <%= link_to "Ateliers", ateliers_path %></a>
+          </li>
+          <li>
+            <a <%= link_to "Activités", actus_path %></a>
+          </li>
+          <li>
+            <a <%=link_to "Thérapeute", about_path%></a>
+          </li>
+          <li>
+            <a <%= link_to "Contact", contact_path %></a>
+          </li>
+        </ul>
+
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+      </nav>
+      <script src="application.js"></script>
+
+
+
+  <!-- grand ecran navbar -->
+       <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light ">
           <div class="navbar-brand ml-2">
-            <a class="navbar-brand "<%=link_to "Terre'Happy", root_path%></a>
+            <a class="navbar-brand "<%=link_to "Energies & Guérison", root_path%></a>
           </div>
 
 
@@ -82,7 +123,7 @@
               <div class="col-md-2 col-lg-2 col-xl-2 column-footer ">
 
                 <!-- Links -->
-                <h6 class="text-uppercase border-bottom  border-color" style="width: 55%;"><%=link_to "Terre'Happy", root_path%></h6>
+                <h6 class="text-uppercase border-bottom  border-color" style="width: 80%;"><%=link_to "Energies & Guérison", root_path%></h6>
 
                 <p class= "mb-1">
                   <a href=""><%= link_to "Soins", soins_path %></a>
@@ -99,12 +140,12 @@
               <div class="col-md-4 col-lg-3 col-xl-3 ml-5">
 
                 <!-- Links -->
-                <h6 class="text-uppercase border-bottom border-color"  style="width: 20%;"><%= link_to "Contact", contact_path %></h6>
+                <h6 class="text-uppercase border-bottom border-color"  style="width: 25%;"><%= link_to "Contact", contact_path %></h6>
 
                 <p class= "mb-1">
                   <a href="https://www.google.ch/maps/place/Saint-Prex/@46.4659738,6.4385357,13z/data=!3m1!4b1!4m5!3m4!1s0x478c39b501ea0fe1:0xdc0de6e932131cda!8m2!3d46.4829113!4d6.4583435 ">Saint-Prex, Vaud, Suisse</a></p>
                 <p class= "mb-1">
-                  <a href="mailto:nfo@terre-happy.com">info@terre-happy.com</a></p>
+                  <a href="mailto:nfo@energies-et-guerison.com">info@energies-et-guerison.com</a></p>
                  <p class= "mb-1">
                   <a href="tel:+41 76 69 06 802 ">+41 76 69 06 802</a></p>
               </div>
