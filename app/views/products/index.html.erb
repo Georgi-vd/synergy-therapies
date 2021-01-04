@@ -48,7 +48,8 @@
               <h5 class="card-title mb-4">Soins</h5>
               <img style="background-image: url('<%= image_path 'antenne_Lecher.jpeg' %>');"class="card-img-top" >
 
-              <p class="card-text mt-3">Energies & Guérison vous propose une thérapie multifacorielle combinant des soins sur place et à distance</p>
+              <p class="card-text mt-3">Energies & Guérison propose <br> des soins sur place <br>
+              ou à distance</p>
               </div>
           <% end %>
         </div>
@@ -61,7 +62,7 @@
               <div class="card-body">
                 <h5 class="card-title mb-4">Ateliers</h5>
                 <img style="background-image: url('<%= image_path 'cabinet.jpeg' %>');"class="card-img-top" >
-                <p class="card-text mt-3">Energies & Guérison propose des ateliers pour enfants, adultes, cadres en entreprises.</p>
+                <p class="card-text mt-3">Energies & Guérison propose des ateliers pour enfants, adolescents et adultes.</p>
               </div>
             <% end %>
           </div>
@@ -69,12 +70,12 @@
 
 
           <div class="card text-center">
-            <%= link_to ateliers_path, :action => 'go' do %>
+            <%= link_to actus_path, :action => 'go' do %>
 
               <div class="card-body">
                 <h5 class="card-title mt-4 mb-3">Activités</h5>
                 <img style="background-image: url('<%= image_path 'joie.jpeg' %>');"class="card-img-top" >
-                <p class="card-text mt-3">Energies & Guérison met à disposition des videos, articles pour vous accompagner au quotidien. Dans les actualités, vous pouvez aussi retrouver les événements</p>
+                <p class="card-text mt-3">Energies & Guérison propose des événements et des sorties. <br> Mise à disposition de videos et articles pour vous accompagner au quotidien.</p>
               </div>
              <% end %>
           </div>
@@ -97,10 +98,10 @@
       <div class="layer"></div>
       <div class="content">
         <div class="details mb-3">
-          <h2>Nadège <p>France</p></h2>
+          <h2>Nathalie <p>France</p></h2>
           <h2 class="mt-3"><span>Soin à distance & atelier gestion de l'hypersensibilité adulte </span></h2>
         </div>
-        <p> "A peine croyable, moi qui suis pharmacienne et cartésienne,
+        <p> "A peine croyable, moi qui suis professionnelle de santé et cartésienne,
         je n'aurai jamais pensé un jour que l'énergétique allait pouvoir me permettre de ne plus avoir de crise d'angoisse et de mieux dormir."</p>
       </div>
     </div>
@@ -110,7 +111,7 @@
       <div class="content">
         <div class="details mb-3">
           <h2>Romain <p>Valais, Suisse</p></h2>
-          <h2 class="mt-3"><span>Soin Acmos & atelier gestion de l'hypersensibilité adolescent</span></h2>
+          <h2 class="mt-3"><span>Soin Acmos & atelier gestion de l'hypersensibilité jeune adulte</span></h2>
         </div>
         <p> "Le soin bioénergétique accompagné du cours de gestion de l'hypersensibilité m'ont permis de ne plus ressentir les oppressions
         et de ne plus me sentir comme une éponge par rapport à mon environnement."</p>
@@ -122,12 +123,47 @@
       <div class="content">
         <div class="details mb-3">
           <h2>Solange <p>Iles Canaries, Espagne</p></h2>
-          <h2 class="mt-3"><span>Soin à distance & coaching </span></h2>
+          <h2 class="mt-3"><span>Soin à distance & accompagnement </span></h2>
         </div>
         <p> "Un mieux être s'est installé dès la première séance, un élan dans la réalisation de mes tâches quotidiennes qui depuis mon burnout étaient difficiles à réaliser.
         <br> <br>Le coaching m'a aussi beaucoup aidé à comprendre comment je fonctionnais et quels outils je peux utiliser au quotidien pour me sentir mieux et plus sereine." </p>
       </div>
     </div>
+
+    <div class="card">
+      <div class="layer"></div>
+      <div class="content">
+        <div class="details mb-3">
+          <h2>Nadège <p>Bourgogne, France</p></h2>
+          <h2 class="mt-3"><span>Soin à distance </span></h2>
+        </div>
+        <p> "Seulement après une séance et je me sens déjà mieux. Fini les crises d'angoisse, la thérapeute sait être pragmatique grâce à son bagage scientifique, très à l'écoute et a su répondre à mes attentes après des année de recherche grâce à sa méthode. <br>Un conseil : allez-y les yeux fermés ! A recommander sans hésitation. "</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="layer"></div>
+      <div class="content">
+        <div class="details mb-3">
+          <h2>Rosa <p>Lausanne, Suisse</p></h2>
+          <h2 class="mt-3"><span>Soin à distance </span></h2>
+        </div>
+        <p> "Après avoir eu le covid, il n'a pas était évident de remonter la pente, fatigue, douleurs musculaires, essouflements, pertes de mémoires...
+        <br> <br>Les bilans énergétiques m'ont beaucoup aidés et je retrouve depuis 4 mois une énergie croissante, un grand merci!" </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="layer"></div>
+      <div class="content">
+        <div class="details mb-3">
+          <h2>Nicolas <p>Nyon, Suisse</p></h2>
+          <h2 class="mt-3"><span>Soin à distance </span></h2>
+        </div>
+        <p> "Cadre dans une multinationale, j'étais vidé, je n'avais plus d'énergie. On m'avait conseillé d'aller travailler au niveau énergétique, je m'étais dit ca attendra c'est pas si urgent. <br><br>Mais un matin, impossible de me lever pour aller au travail. <br>Situation d'urgence, je suis allé faire un soin. <br>Dès le premier bilan, je me suis senti appaisé. Une semaine de repos et un travail sur moi-même a pu être débuté. <br><br>Trois séances plus tard, je sens un élan de vie en moi. Une renaissance après cette peur d'être vieux à 40 ans."
+      </div>
+    </div>
+
   </div>
 </div>
 
