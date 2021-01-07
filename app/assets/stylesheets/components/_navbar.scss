@@ -145,13 +145,19 @@ $violet-light 0.5px 0.5px,
   }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1400px) {
+  .nav-links {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:1021px) {
   .nav-links {
     width: 80%;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:890px) {
   body{
     overflow: hidden;
   }
