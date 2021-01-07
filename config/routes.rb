@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'bioenergie', to: 'pages#bioenergie'
 
   resources :soins, only: [:index, :show]
   resources :ateliers, only: [:index, :show]
