@@ -79,7 +79,7 @@ $violet-light 0.5px 0.5px,
 
 */
 *{
-  margin: 0px;
+  margin-top: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
@@ -91,6 +91,7 @@ nav{
   min-height: 6vh;
   background-color: $violet;
   opacity: 0.8;
+  padding-top: 12px;
 
 }
 
