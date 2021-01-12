@@ -19,13 +19,14 @@
   border-radius: 8px;
   box-shadow: 0 5 15px rgb(230,230,230);
   text-align: center;
+  text-shadow: 0.5px 0.5px $violet-light;
   padding: 10px;
   padding-top: 5px;
   padding-bottom: 15px;
   width: 30%;
   margin-right: 3px;
   flex-wrap: wrap;
-  border: 2px solid $violet-light;
+  border: 3px solid $violet-light;
   &:hover {
   background: linear-gradient($turquoise, $violet);
   opacity: 0.7;
@@ -51,12 +52,16 @@
 //     width: 30%;
 //   }
 // }
-// @media (max-width: 720px) {
+@media (max-width: 768px) {
 //   /* For a screen < 720px, this CSS will be read */
-//   .card {
-//     width: 20%;
-//   }
-// }
+  .cards {
+    flex-direction: column;
+    }
+  .card {
+    min-width: 50%;
+    width:100%;
+  }
+}
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .cards {
