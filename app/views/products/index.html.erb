@@ -4,26 +4,19 @@
 <div class="banner" style="background-image: url('<%= image_path 'ciel_bleu_nauge.jpeg' %>');">
 
   <div class="container banner-flex">
-    <h1><span id="t">E</span>
-      <span id="e">n</span>
-      <span id="r1">e</span>
-      <span id="r2">r</span>
-      <span id="e2">g</span>
-      <span id="apo">i</span>
-      <span id="h">e</span>
-      <span id="r1">s</span>
-
-      <span class="ml-3" id="a">&</span>
-
-
-      <span class="ml-3" id="h">g</span>
-      <span id="y">u </span>
-      <span id="e">é</span>
+    <h1><span id="t">S</span>
+      <span id="e">u</span>
+      <span id="r1">p</span>
+      <span id="r2">e</span>
+      <span id="e2">r</span>
+      <span id="apo">c</span>
+      <span id="h">a</span>
+      <span id="r1">p</span>
+      <span id="h">t</span>
+      <span id="y">e </span>
+      <span id="e">u</span>
       <span id="h">r </span>
-      <span  id="a">i</span>
-      <span id="p1">s</span>
-      <span id="y">o</span>
-      <span id="e">n</span>
+
 
     </h1>
     <p> Vivre pleinement sa vie ... </p>
@@ -35,21 +28,33 @@
 
   <div class="container mt-5 mb-5">
     <div class="sous-titre-light mt-1 mb-2">
-    <h2><i class="fas fa-feather-alt mr-2"></i> L'énergie au service de notre santé</h2>
+    <h2><i class="fas fa-feather-alt mr-2"></i> L'énergie au service de notre vie</h2>
     </div>
     <div class="row">
       <div class="cards">
+
+         <div class="card text-center">
+            <%= link_to actus_path, :action => 'go' do %>
+
+              <div class="card-body">
+                <h5 class="card-title mt-4 mb-3">Burnout</h5>
+                <img style="background-image: url('<%= image_path 'joie.jpeg' %>');"class="card-img-top" >
+                <p class="card-text mt-3">Une bonne compréhension du burnout chez l'hypersensible pour une rennaissance optimale et rapide.
+                 </p>
+              </div>
+             <% end %>
+          </div>
 
 
         <div class="card text-center">
           <%= link_to soins_path, :action => 'go' do %>
 
               <div class="card-body">
-              <h5 class="card-title mb-4">Soins</h5>
-              <img style="background-image: url('<%= image_path 'antenne_Lecher.jpeg' %>');"class="card-img-top" >
+              <h5 class="card-title mb-4">Programme Rennaissance</h5>
+              <img style="background-image: url('<%= image_path 'joie.jpeg' %>');"class="card-img-top" >
 
-              <p class="card-text mt-3">Energies & Guérison propose <br> des soins sur place <br>
-              ou à distance</p>
+              <p class="card-text mt-3">Programme structuré en phase avec les étapes du burnout. <br>Programme sur mesure possible.
+              </p>
               </div>
           <% end %>
         </div>
@@ -60,25 +65,16 @@
             <%= link_to ateliers_path, :action => 'go' do %>
 
               <div class="card-body">
-                <h5 class="card-title mb-4">Ateliers</h5>
+                <h5 class="card-title mb-4">Consolidation</h5>
                 <img style="background-image: url('<%= image_path 'cabinet.jpeg' %>');"class="card-img-top" >
-                <p class="card-text mt-3">Energies & Guérison propose des ateliers pour enfants, adolescents et adultes.</p>
+                <p class="card-text mt-3">Retraite de régénérescence sur le week-end ou 5 jours.</p>
               </div>
             <% end %>
           </div>
 
 
 
-          <div class="card text-center">
-            <%= link_to actus_path, :action => 'go' do %>
 
-              <div class="card-body">
-                <h5 class="card-title mt-4 mb-3">Activités</h5>
-                <img style="background-image: url('<%= image_path 'joie.jpeg' %>');"class="card-img-top" >
-                <p class="card-text mt-3">Energies & Guérison propose des événements et des sorties. <br> Mise à disposition de videos et articles pour vous accompagner au quotidien.</p>
-              </div>
-             <% end %>
-          </div>
 
 
       </div>
@@ -99,24 +95,14 @@
       <div class="content">
         <div class="details mb-3">
           <h2>Rosa <p>Lausanne, Suisse</p></h2>
-          <h2 class="mt-3"><span>Soin à distance </span></h2>
+          <h2 class="mt-3"><span>Programme rennaissance </span></h2>
         </div>
-        <p> "Après avoir eu le covid, il n'a pas était évident de remonter la pente, fatigue, douleurs musculaires, essouflements, pertes de mémoires...
-        <br> <br>Les bilans énergétiques m'ont beaucoup aidés et je retrouve depuis 4 mois une énergie croissante, un grand merci!" </p>
+        <p> "Pendant le covid, ca a été un vrai cauchemard pour moi. Je ressentais toutes les énergies basses des gens, leur peur, leur stress... J'étais épuisée.
+        <br> <br>Le programme m'a fait effectivement renaitre. Je retrouve depuis 4 mois une énergie croissante, un grand merci!" </p>
       </div>
     </div>
 
-    <div class="card">
-      <div class="layer"></div>
-      <div class="content">
-        <div class="details mb-3">
-          <h2>Nathalie <p>France</p></h2>
-          <h2 class="mt-3"><span>Soin à distance & atelier gestion de l'hypersensibilité adulte </span></h2>
-        </div>
-        <p> "A peine croyable, moi qui suis professionnelle de santé et cartésienne,
-        je n'aurai jamais pensé un jour que l'énergétique allait pouvoir me permettre de ne plus avoir de crise d'angoisse et de mieux dormir."</p>
-      </div>
-    </div>
+
 
     <div class="card">
       <div class="layer"></div>
@@ -135,32 +121,23 @@
       <div class="content">
         <div class="details mb-3">
           <h2>Solange <p>Iles Canaries, Espagne</p></h2>
-          <h2 class="mt-3"><span>Soin à distance & accompagnement </span></h2>
+          <h2 class="mt-3"><span>Programme rennaissance </span></h2>
         </div>
         <p> "Un mieux être s'est installé dès la première séance, un élan dans la réalisation de mes tâches quotidiennes qui depuis mon burnout étaient difficiles à réaliser.
         <br> <br>Le coaching m'a aussi beaucoup aidé à comprendre comment je fonctionnais et quels outils je peux utiliser au quotidien pour me sentir mieux et plus sereine." </p>
       </div>
     </div>
 
-     <div class="card">
-      <div class="layer"></div>
-      <div class="content">
-        <div class="details mb-3">
-          <h2>Nathan <p>St-Prex, Suisse</p></h2>
-          <h2 class="mt-3"><span>Soin bioénergetique chez l'enfant </span></h2>
-        </div>
-        <p> "Nathan avait changé depuis le début du confinement, il avait des périodes où il était renfermé sur lui-même et d'autres où il faisait des crises. Le coronavirus et l'angoisse qu'il y a autour l'a perturbé. <br><br>Je me suis donc tournée vers une médecine douce et avec joie, je me rends compte que j'ai fait le bon choix, Nathan nous parle davantage, il est plus heureux, il revit." <br>Angélique, la maman de Nathan.</p>
-      </div>
-    </div>
+
 
     <div class="card">
       <div class="layer"></div>
       <div class="content">
         <div class="details mb-3">
           <h2>Nadège <p>Bourgogne, France</p></h2>
-          <h2 class="mt-3"><span>Soin à distance </span></h2>
+          <h2 class="mt-3"><span>Programme rennaissance </span></h2>
         </div>
-        <p> "Seulement après une séance et je me sens déjà mieux. Fini les crises d'angoisse, la thérapeute sait être pragmatique grâce à son bagage scientifique, très à l'écoute et a su répondre à mes attentes après des année de recherche grâce à sa méthode. <br>Un conseil : allez-y les yeux fermés ! A recommander sans hésitation. "</p>
+        <p> "Seulement après une séance et je me sens déjà mieux. Fini les crises d'angoisse, la thérapeute sait être pragmatique grâce à son bagage scientifique, très à l'écoute et a su répondre à mes attentes après des années de recherche grâce à sa méthode. <br>Un conseil : allez-y les yeux fermés ! A recommander sans hésitation. "</p>
       </div>
     </div>
 
@@ -170,9 +147,10 @@
       <div class="content">
         <div class="details mb-3">
           <h2>Nicolas <p>Nyon, Suisse</p></h2>
-          <h2 class="mt-3"><span>Soin à distance </span></h2>
+          <h2 class="mt-3"><span>Consolidation  </span></h2>
         </div>
-        <p> "Cadre dans une multinationale, j'étais vidé, je n'avais plus d'énergie. On m'avait conseillé d'aller travailler au niveau énergétique, je m'étais dit ca attendra c'est pas si urgent. <br><br>Mais un matin, impossible de me lever pour aller au travail. <br>Situation d'urgence, je suis allé faire un soin. <br>Dès le premier bilan, je me suis senti appaisé. Une semaine de repos et un travail sur moi-même a pu être débuté. <br><br>Trois séances plus tard, je sens un élan de vie en moi. Une renaissance après cette peur d'être vieux à 40 ans."
+        <p> "Cadre dans une multinationale, j'étais vidé, je n'avais plus d'énergie. On m'avait conseillé d'aller travailler au niveau énergétique, je m'étais dit ca attendra c'est pas si urgent. <br><br>Mais un matin, impossible de me lever pour aller au travail. <br>Situation d'urgence, je suis allé faire un soin. <br>Dès le premier bilan, je me suis senti appaisé. Une semaine de repos et un travail sur moi-même a pu être débuté. <br><br>Trois séances plus tard, je sens un élan de vie en moi.
+        <br><br> J'ai ensuite suivi un week-end consolidation - Cette accompagnement est une vraie renaissance après cette peur d'être vieux à 40 ans."
       </div>
     </div>
 

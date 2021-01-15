@@ -1,6 +1,6 @@
 <div class="container justify-content-center pt-5 mb-5 mt-5">
   <div class="container-title justify-content-center">
-    <h1><i class="fas fa-feather-alt mr-4"></i> Activités <i class="fas fa-feather-alt ml-4"></i></h1>
+    <h1><i class="fas fa-feather-alt mr-4"></i> Burnout et hypersensibilité<i class="fas fa-feather-alt ml-4"></i></h1>
   </div>
 </div>
 
@@ -13,12 +13,15 @@
         <%= link_to contact_path, :action => 'go' do %>
         <div class="soin-card text-center">
             <div class="soin-card-body">
-              <h5 class="card-title">La Joie en Moi</h5>
+              <h5 class="card-title">Burnout</h5>
               <%= image_tag 'joie.jpeg', height: '100px' %>
-              <p class="card-text-question">Un moment d'évasion et de reconnexion avec la joie, la légèreté et la création</p>
-              <h4>Offrir l'opportunité à votre corps et votre esprit d'oeuvrer avec légéreté.
-              <br>Quête de vision par la reconnexion avec la joie et le mouvement.</h4>
-              <h4>Mouvements doux, adaptés à tous, vêtements confortables de préférences</h4>
+              <p class="card-text-question">Qu'est ce que c'est ?</p>
+              <h4>Un état où notre corps et notre esprit arrivent à un point de non retour.
+              <br><br>Si vous êtes entrain de lire ce site, je sais:
+              <li class="ml-2"> que vous n'avez pas beaucoup d'énergie,</li>
+              <li class="ml-2">qu'il faut être conscit, </li>
+              <li class="ml-2">et vous apporter une solution rapide pour que vous puissiez reprendre le contrôle de votre vie.</li></h4>
+
             </div>
             <div class = "container justify-content-center mt-4">
               <button class="button-soin mb-3 mr-5 "><i class="fas fa-coins mr-2"></i> 60 CHF</button>
@@ -32,68 +35,30 @@
 
 
       <div class="col-12 col-lg-12">
-        <%= link_to contact_path, :action => 'go' do %>
+        <%= link_to bioenergie_path, :action => 'go' do %>
         <div class="soin-card text-center">
 
           <div class="soin-card-body">
-            <h5 class="card-title">Marche nocturne pleine conscience <br>en raquettes à neige</h5>
+            <h5 class="card-title">Burnout chez l'hypersensible</h5>
             <%= image_tag 'snow_winter.jpeg', height: '100px' %>
-            <p class="card-text-question">Réancrez-vous pour reprendre le chemin de votre vie</p>
-            <h4>Offrir l'opportunité à votre corps de se reconnecter à son plein potentiel.
-            Rencontrer et partager avec des personnes éveillées aux énergies</h4>
-            <h4>Prendre votre matériel, raquettes, tenue chaude, lampe frontale.</h4>
-            <h4>Marche sur sentier balisé. Pas de risque particulier. L'équipe organisatrice décline toute responsabilité.</h4>
+            <p class="card-text-question">Une approche spécifique</p>
+            <h4>Une thérapie classique du burnout chez l'hypersensible peut souvent amener à une récidive quelques temps après.
+            D'où l'importance de la compréhension de l'hypersensibilité lors de la prise en charge.</h4>
+            <h4>Le programme rennaissance vous accompagne pas à pas.</h4>
+
           </div>
           <div class = "container justify-content-center mt-4">
-            <button class="button-soin mb-3 mr-5 "><i class="fas fa-coins mr-2"></i> 50 CHF</button>
-            <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i> 2h</button>
-            <button class="button-soin mb-3 mr-5"><i class="fas fa-hand-point-right"></i> Prochain départ : Février 2021 </button>
-            <button class="button-soin mb-3 mr-5"><i class="fas fa-users"></i></button>
+            <button class="button-soin mb-3 mr-5 "> Voir les soins</button>
+            <button class="button-soin mb-3 mr-5"><%= link_to "Demande de renseignements", contact_path %></button>
           </div>
         </div>
         <% end %>
       </div>
 
 
-      <div class="col-12 col-lg-12">
-        <%= link_to contact_path, :action => 'go' do %>
-        <div class="soin-card text-center">
-            <div class="soin-card-body">
-              <h5 class="card-title">Concert sonothérapeutique en plein air</h5>
-              <%= image_tag 'gong plein air.jpeg', height: '100px', width:'60px' %>
-              <p class="card-text-question">Un moment d'évasion et de reconnexion avec ces sens</p>
-              <h4>Offrir l'opportunité à votre corps de se reconnecter à son plein potentiel.
-              Quête de vision par la reconnection avec la nature</h4>
-            </div>
-            <div class = "container justify-content-center mt-4">
-              <button class="button-soin mb-3 mr-5 "><i class="fas fa-coins mr-2"></i> 50 CHF</button>
-              <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i> 2h</button>
-              <button class="button-soin mb-3 mr-5"><i class="fas fa-hand-point-right"></i> Prochain départ : Février 2021 </button>
-              <button class="button-soin mb-3 mr-5"><i class="fas fa-users"></i></button>
-          </div>
-        </div>
-        <% end %>
-      </div>
 
-      <div class="col-12 col-lg-12">
-        <%= link_to contact_path, :action => 'go' do %>
-        <div class="soin-card text-center">
-          <div class="soin-card-body">
-            <h5 class="card-title">Concert sonothérapeutique en refuge</h5>
-            <%= image_tag 'refuge.jpeg', height: '100px' %>
-            <p class="card-text-question">Réancrez-vous pour reprendre le chemin de votre vie</p>
-            <h4>Offrir l'opportunité à votre corps de se reconnecter à son plein potentiel.
-            Rencontrer et partager avec des personnes éveillées aux énergies</h4>
-          </div>
-          <div class = "container justify-content-center mt-4">
-            <button class="button-soin mb-3 mr-5 "><i class="fas fa-coins mr-2"></i> 80 CHF avec collation </button>
-            <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i> 2h</button>
-            <button class="button-soin mb-3 mr-5"><i class="fas fa-hand-point-right"></i> Prochain départ : Mars 2021 </button>
-            <button class="button-soin mb-3 mr-5"><i class="fas fa-users"></i></button>
-          </div>
-        </div>
-        <% end %>
-      </div>
+
+
 
 
 

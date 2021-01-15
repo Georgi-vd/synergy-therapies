@@ -1,7 +1,7 @@
 <div class="container justify-content-center pt-5 mb-0 mt-5">
   <div class="container-title banner-flex text-center justify-content-center">
-    <h1></i> Bioénergie  </h1>
-    <h3>L'énergie au service de notre santé </h3>
+    <h1></i> Hypersensibilité </h1>
+    <h3>L'énergie au service de notre vie </h3>
   </div>
 </div>
 
@@ -9,7 +9,7 @@
 <div class="container  ">
   <div class="row justify-content-center mt-2">
     <div class="sous-titre">
-    <h3><i class="fas fa-feather-alt ml-5 mr-3"></i>Pour quels symptômes ?</h3>
+    <h3><i class="fas fa-feather-alt ml-5 mr-3"></i>Un don, une force</h3>
     </div>
     <div class="soin-cards mb-2">
       <%= link_to soins_path, :action => 'go' do %>
@@ -17,25 +17,17 @@
         <div class="soin-card text-center">
 
           <div class="soin-card-body">
-            <h5 class="card-title">Redonner les capacités d'autogestion du corps </h5>
+            <h5 class="card-title">Savoir apprivoiser cette force </h5>
               <%= image_tag 'Chemin du symptome.jpeg', height: '400px' %>
-            <h4 class="mt-3 card-text">Le travail énergétique travaille sur la cause du désordre.
-              <br><br>Pour comprendre le lien entre l'énergétique et le symptôme, l'une des informations primordiales à connaître est que :
-                <br> les déséquilibres au niveau vibratoire (ondes, ...), engendrent des déséquilibrent au niveau énergétique, puis au niveau organique et peuvent induire des lésions.
-                <br> Le rôle du bioénergéticien est de réquilibrer avec le patient les déséquilibres au niveau vibratoire et énergétique afin d'éviter les répercusions au niveau organique et lésionnel.
-                <br>
-              <br><br>A noter que le corps procède par priorités, si un symptôme est la conséquence d'autres désordres,
-              le corps, via un soin accès sur le centripète, va aller rééquilibrer en premier lieu la cause du désordre.
-            <br> <br>D'après les données cliniques, les personnes consultent pour :
-                <ul class = "mt-3 text-center"> Fatigue </ul>
-                <ul class = "text-center">Stress</ul>
-                <ul class = "text-center">Crises d'angoisses, peurs</ul>
-                <ul class = "text-center">Burnout - Brownout</ul>
-                <ul class = "text-center" >Baisse de moral</ul>
-                <ul class = "text-center" >Insomnies</ul>
-                <ul class = "text-center">Migraines</ul>
-                <ul class = "text-center"> Autres maux physiques</ul> </h4>
-          </div>
+            <h4 class="mt-3 card-text">En tant qu'hypersensible, nous avons été formaté par notre société à voir cela comme une faiblesse.
+              <br><br>Depuis l'enfance, où l'enfant sensible va être vu comme un enfant non attentif ou qui pleure facilement, qui se sent facilement affectée par la tristesse d'un de ses camarades.
+              <br><br> A l'adolescence et à l'âge adulte, ca ne s'améliore pas le jugement des autres. L'hypersensible va être vu comme une éponge, quelqu'un de dispersé...
+              <br><br> Vous voyez de quoi je parle ?
+              <br> <br>Stop à ces préjugés !
+              <br><br> Vous êtes hypersensibles et nous allons vous accompagner dans la découverte de cette force.
+              <br><br> Vous ne vivrez plus votre vie comme auparavant ! C'est une promesse, je suis passée par là.
+            </h4>
+
           <div class = "container justify-content-center mt-4">
             <button class="button-soin mb-3 mr-5 "> Voir les soins</button>
             <button class="button-soin mb-3 mr-5"><%= link_to "Demande de renseignements", contact_path %></button>
@@ -51,7 +43,7 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="sous-titre">
-    <h3><i class="fas fa-feather-alt ml-5 mr-3"></i>Qu'est ce que c'est ? </h3>
+    <h3><i class="fas fa-feather-alt ml-5 mr-3"></i>Quel chemin avant de renaitre ? </h3>
     </div>
 
     <div class="soin-cards">
@@ -61,7 +53,7 @@
         <div class="soin-card text-center">
 
           <div class="soin-card-body">
-            <h5 class="card-title">La méthode</h5>
+            <h5 class="card-title">Fatigué</h5>
             <%= image_tag 'cabinet_radius.jpeg', height: '100px' %>
             <p class="card-text-question">Méthode Acmos d'équilibre énergétique global, depuis 1985 par le Dr. René Naccachian</p>
               <h4><br>La Méthode Acmos a pour objet de permettre au corps de reprendre le contrôle de ses circuits énergétiques afin qu'il retrouve sa capacité d'autogestion.
@@ -89,7 +81,7 @@
         <div class="soin-card text-center">
 
             <div class="soin-card-body">
-              <h5 class="card-title">Les outils </h5>
+              <h5 class="card-title">Burnout </h5>
               <%= image_tag 'cabinet_radius.jpeg', height: '100px' %>
               <p class="card-text-question">Outils de mesures scientifiques, de transferts énergétiques <br>et de stimulation
                 & produits</p>
@@ -112,12 +104,43 @@
           </div>
         <% end %>
       </div>
+
+      <div class="col-12 col-lg-12">
+        <%= link_to soins_path, :action => 'go' do %>
+        <div class="soin-card text-center">
+          <div class="soin-card-body">
+            <h5 class="card-title">Perte de motivation</h5>
+            <%= image_tag 'cabinet_radius.jpeg', height: '100px' %>
+            <p class="card-text-question">Méthode Acmos d'équilibre énergétique global, depuis 1985 par le Dr. René Naccachian</p>
+              <h4><br>La Méthode Acmos a pour objet de permettre au corps de reprendre le contrôle de ses circuits énergétiques afin qu'il retrouve sa capacité d'autogestion.
+              <br><br>Des médecins et des spécialistes du monde entier ont collaboré à l'élaboration de cette méthode.
+              <br><br>Basée entre autre sur la médecine traditionnelle chinoise, elle met en œuvre des protocoles rigoureux d'investigation et s'appuie sur des mesures scientifiques, le principe de biorésonance et la stimulation des points d'accupuncture.
+              <br> <br>En fonction des priorités de votre corps, nous réalisons des transferts énergétiques d'huiles essentielles, de minéraux, d'oligoéléments, de phyto (plantes), d'homéopathies.
+
+              <br><br>A noter que la biorésonance Acmos est différente de la biorésonance reposant sur l'utilisation d'appareils électroniques qui agissent sur les paramètres
+              physiologiques, le champs centrifuge, c'est à dire les symptomes et non la cause.
+
+              <br><br>La spécificité de la méthode Acmos est qu'elle agit dans le profond via l'antenne de Lecher et le bioénergéticien par la mesure et l'action sur le champ centripète - champ énergétique amenant aux symptômes. <br> <br>L'action se fait donc sur la cause des symptômes et permet de déprogrammer des mémoires négatives.
+                <br><br>
+                A noter que le corps procède toujours par priorités. <br>De ce fait, un symptôme peut être une dégradation de plusieurs déséquilibres antérieurs. Vous pouvez donc consulter pour un smptôme lourd mais avant de le voir disparaître vous allez voir plusieurs petits déséquilibres se rééquilibrer.
+
+                <br><br> C'est comme si l'on allait voir un réparateur de vélo car la roue ne tourne plus et on demande au réparateur : "changez-moi la roue" alors qu'en fait c'est potentiellement le pédalier qui est la cause.
+              <br> <br>Effectivement, votre corps pour se rééquilibrer à besoin de se restructurer pour avoir une base solide. </h4>
+          </div>
+        </div>
+        </div>
+        <% end %>
+      </div>
+
+
+      </div>
     </div>
   </div>
 </div>
 
 
 
+  <!-- code 1ere ligne soins  -->
 <div class="container  ">
   <div class="row justify-content-center mt-5">
     <div class="sous-titre">
@@ -208,9 +231,6 @@
     </div>
   </div>
 </div>
-
-
-
 
 
 
