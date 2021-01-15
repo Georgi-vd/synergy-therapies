@@ -5,6 +5,48 @@
   </div>
 </div>
 
+  <!-- code quels symptomes -->
+<div class="container  ">
+  <div class="row justify-content-center mt-2">
+    <div class="sous-titre">
+    <h3><i class="fas fa-feather-alt ml-5 mr-3"></i>Pour quels symptômes ?</h3>
+    </div>
+    <div class="soin-cards mb-2">
+      <%= link_to soins_path, :action => 'go' do %>
+      <div class="col-12 col-lg-12 ">
+        <div class="soin-card text-center">
+
+          <div class="soin-card-body">
+            <h5 class="card-title">Redonner les capacités d'autogestion du corps </h5>
+              <%= image_tag 'Chemin du symptome.jpeg', height: '400px' %>
+            <h4 class="mt-3 card-text">Le travail énergétique travaille sur la cause du désordre.
+              <br><br>Pour comprendre le lien entre l'énergétique et le symptôme, l'une des informations primordiales à connaître est que :
+                <br> les déséquilibres au niveau vibratoire (ondes, ...), engendrent des déséquilibrent au niveau énergétique, puis au niveau organique et peuvent induire des lésions.
+                <br> Le rôle du bioénergéticien est de réquilibrer avec le patient les déséquilibres au niveau vibratoire et énergétique afin d'éviter les répercusions au niveau organique et lésionnel.
+                <br>
+              <br><br>A noter que le corps procède par priorités, si un symptôme est la conséquence d'autres désordres,
+              le corps, via un soin accès sur le centripète, va aller rééquilibrer en premier lieu la cause du désordre.
+            <br> <br>D'après les données cliniques, les personnes consultent pour :
+                <ul class = "mt-3 text-center"> Fatigue </ul>
+                <ul class = "text-center">Stress</ul>
+                <ul class = "text-center">Crises d'angoisses, peurs</ul>
+                <ul class = "text-center">Burnout - Brownout</ul>
+                <ul class = "text-center" >Baisse de moral</ul>
+                <ul class = "text-center" >Insomnies</ul>
+                <ul class = "text-center">Migraines</ul>
+                <ul class = "text-center"> Autres maux physiques</ul> </h4>
+          </div>
+          <div class = "container justify-content-center mt-4">
+            <button class="button-soin mb-3 mr-5 "> Voir les soins</button>
+            <button class="button-soin mb-3 mr-5"><%= link_to "Demande de renseignements", contact_path %></button>
+          </div>
+        </div>
+      <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
   <!-- code 1ere ligne soins  -->
 <div class="container">
   <div class="row justify-content-center">
@@ -22,12 +64,9 @@
             <h5 class="card-title">La méthode</h5>
             <%= image_tag 'cabinet_radius.jpeg', height: '100px' %>
             <p class="card-text-question">Méthode Acmos d'équilibre énergétique global, depuis 1985 par le Dr. René Naccachian</p>
-              <h4>Pour comprendre le lien entre l'énergétique et le symptôme, l' une des informations primordiales à connaître est que :
-                <br> les déséquilibres au niveau vibratoire (ondes, ...), engendrent des déséquilibrent au niveau énergétique, puis au niveau organique et peuvent induire des lésions.
-                <br> Le rôle du bioénergéticien est de réquilibrer avec le patient les déséquilibres au niveau vibratoire et énergétique afin d'éviter les répercusions au niveau organique et lésionnel.
-                <br><br>La Méthode Acmos a pour objet de permettre au corps de reprendre le contrôle de ses circuits énergétiques afin qu'il retrouve sa capacité d'autogestion.
+              <h4><br>La Méthode Acmos a pour objet de permettre au corps de reprendre le contrôle de ses circuits énergétiques afin qu'il retrouve sa capacité d'autogestion.
               <br><br>Des médecins et des spécialistes du monde entier ont collaboré à l'élaboration de cette méthode.
-              <br>Basée entre autre sur la médecine traditionnelle chinoise, elle met en œuvre des protocoles rigoureux d'investigation et s'appuie sur des mesures scientifiques, le principe de biorésonance et la stimulation des points d'accupuncture.
+              <br><br>Basée entre autre sur la médecine traditionnelle chinoise, elle met en œuvre des protocoles rigoureux d'investigation et s'appuie sur des mesures scientifiques, le principe de biorésonance et la stimulation des points d'accupuncture.
               <br> <br>En fonction des priorités de votre corps, nous réalisons des transferts énergétiques d'huiles essentielles, de minéraux, d'oligoéléments, de phyto (plantes), d'homéopathies.
 
               <br><br>A noter que la biorésonance Acmos est différente de la biorésonance reposant sur l'utilisation d'appareils électroniques qui agissent sur les paramètres
@@ -55,18 +94,14 @@
               <p class="card-text-question">Outils de mesures scientifiques, de transferts énergétiques <br>et de stimulation
                 & produits</p>
                 <h4>
-                  Outils de mesures scientifiques : Biofeedback, Antenne de Lecher
-                <br> Outils de transferts énergétiques et de stimulation : Antenne de Lecher, Quantacmos
-                <br> Produits : huiles Essentielles, minéraux, oligoéléments, phyto, homéopathies</p>
+                  <li> Outils de mesures scientifiques : Biofeedback, Antenne de Lecher</li>
+                <br><li>Outils de transferts énergétiques et de stimulation : Antenne de Lecher, Quantacmos</li>
+                <br> <li>Produits : huiles Essentielles, minéraux, oligoéléments, phyto, homéopathies</li>
                 <br>Basée entre autre sur la médecine traditionnelle chinoise, elle met en œuvre des protocoles rigoureux d'investigation
                 <br>et s'appuie sur des mesures scientifiques - Biofeedback - ,
                 <br> le principe de biorésonance et la stimulation des points d'accupuncture - Quantacmos.
                 <br> <br>En fonction des priorités de votre corps, nous réalisons des transferts énergétiques d'huiles essentielles, de minéraux, d'oligoéléments, de phyto (plantes), d'homéopathies.
 
-                <br><br>A noter que la biorésonance Acmos est différente de la biorésonance reposant sur l'utilisation d'appareils électroniques qui agissent sur les paramètres
-                physiologiques, le champs centrifuge, c'est à dire les symptomes et non la cause.
-
-                <br><br>La spécificité de la méthode Acmos est qu'elle agit dans le profond via l'antenne de Lecher et le bioénergéticien par la mesure et l'action sur le champ centripète - champ énergétique amenant aux symptômes. <br> <br>L'action se fait donc sur la cause des symptômes et permet de déprogrammer des mémoires négatives.
                 </h4>
             </div>
             <div class = "container justify-content-center mt-4">
@@ -95,7 +130,7 @@
 
           <div class="soin-card-body">
             <h5 class="card-title">Soin à distance </h5>
-            <%= image_tag 'animaux.jpeg', height: '150px' %>
+            <%= image_tag 'antenne_Lecher.jpeg', height: '150px' %>
             <h4 class="mt-3 card-text">Le soin repose sur le principe de base de la physique quantique :
               <br><br>notre corps matiere est géré par notre corps énergétique. Ce dernier nous informe, par les champs énergétiques, des problèmes que lui pose le corps matière dans sa dimension physique et psychique.
           <br><br>De même que le soin sur place, le soin à distance repose sur le principe de biorésonance et l'antenne de Lecher est utilisé pour la reception et l'émission des champs énergétiques.
@@ -109,7 +144,8 @@
               <li>profitez de ce moment pour vous détendre, lisez un livre, cuisinez, reposez-vous. </li>
               <li>ne pas travailler, ni faire de sport, ni être sur le smartphone ou devant un film. </li>
             <ul class ="mt-4 mb-2">Après le soin :</ul>
-              <li> Explication des points travaillés et accompagnement du suivi par téléphone. </li>
+              <li> explication par téléphone des points travaillés pendant le soin et de ceux à travailler - durée : 10 minutes.
+                <br>A noter : seul whatsapp est utilisé - appel à l'international.</li>
 
         </h4>
           </div>
@@ -135,10 +171,11 @@
         <div class="soin-card text-center">
 
           <div class="soin-card-body">
-            <h5 class="card-title">Adulte, enfant, animaux </h5>
-            <%= image_tag 'animaux.jpeg', height: '150px' %>
-            <h4 class="mt-3 card-text">Les adultes doivent être capable de discernement. Dans le cas contraire, ils devront être accompagnés de leur tuteur légal.
+            <h5 class="card-title">Adultes, enfants, animaux </h5>
+
+            <h4 class="mt-3 card-text">Les adultes doivent être capables de discernement. Dans le cas contraire, ils devront être accompagnés de leur tuteur légal.
             <br><br> Les enfants doivent être accompagnés par un de ses parents.
+            <br><br> Seuls les soins à distance sont réalisés sur les animaux.
             </h4>
           </div>
           <div class = "container justify-content-center mt-4">
@@ -152,41 +189,7 @@
   </div>
 </div>
 
-<div class="container  ">
-  <div class="row justify-content-center mt-5">
-    <div class="sous-titre">
-    <h3><i class="fas fa-feather-alt ml-5 mr-3"></i>Pour quels symptômes ?</h3>
-    </div>
-    <div class="soin-cards mb-5">
-      <%= link_to soins_path, :action => 'go' do %>
-      <div class="col-12 col-lg-12 ">
-        <div class="soin-card text-center">
 
-          <div class="soin-card-body">
-            <h5 class="card-title">Redonner les capacités d'autogestion du corps </h5>
-
-            <h4 class="mt-3 card-text">Le corps procède par priorités, si un symptôme est la conséquence d'autres désordres, le corps en énergétique, via un soin accès sur le centripète va aller rééquilibrer en premier lieu la cause du désordre.
-            <br> <br>D'après les données cliniques, les personnes consultent pour :
-                <ul class = "mt-3 text-center"> Fatigue </ul>
-                <ul class = "text-center">Stress</ul>
-                <ul class = "text-center">Crises d'angoisses</ul>
-                <ul class = "text-center">Burnout - Brownout</ul>
-                <ul class = "text-center" >Baisse de moral</ul>
-                <ul class = "text-center" >Insomnies</ul>
-                <ul class = "text-center">Maux de dos</ul>
-                <ul class = "text-center">Migraines</ul>
-                <ul class = "text-center"> Autres maux physiques</ul> </h4>
-          </div>
-          <div class = "container justify-content-center mt-4">
-            <button class="button-soin mb-3 mr-5 "> Voir les soins</button>
-            <button class="button-soin mb-3 mr-5"> Demande de renseignements</button>
-          </div>
-        </div>
-      <% end %>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="container pb-5 mb-5">
   <div class="row justify-content-center">
