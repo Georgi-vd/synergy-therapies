@@ -18,11 +18,41 @@
   <body>
 
     <!-- navbar -->
-    <div>
+    <aside>
 
 
-    <!-- responsive navbar -->
-      <nav>
+    </aside>
+      <input type="checkbox" id="menu-toggle"/>
+        <label id="trigger" for="menu-toggle"></label>
+        <label id="burger" for="menu-toggle"></label>
+        <ul id="menu">
+          <li>
+            <a <%=link_to "Home", root_path%></a>
+          </li>
+
+          <li>
+            <a <%=link_to "Bioénergie", bioenergie_path%></a>
+          </li>
+          <li>
+            <a <%=link_to "Soins", soins_path%></a>
+          </li>
+          <li>
+            <a <%= link_to "Ateliers", ateliers_path %></a>
+          </li>
+          <li>
+            <a <%= link_to "Activités", actus_path %></a>
+          </li>
+          <li>
+            <a <%=link_to "Thérapeute", about_path%></a>
+          </li>
+          <li>
+            <a <%= link_to "Contact", contact_path %></a>
+          </li>
+        </ul>
+
+
+    <!-- semi responsive navbar sans le burger qui se deploit -->
+      <!--<nav>
         <div class="logo">
           <%=link_to "#{image_tag('Petit Logo.jpeg', height: '35px')}".html_safe, root_path %>
 
