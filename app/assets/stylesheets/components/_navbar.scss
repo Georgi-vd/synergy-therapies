@@ -208,18 +208,23 @@ $violet-light 0.5px 0.5px,
 
 
 
+
+
+
+/*3ème navbar semi responsive sans le burger qui se deroule*/
+
 @keyframes checked-anim {
 
     100% {
         width: 25%;
-        height: 60%;
+        height: 100%;
         border-radius: 8px;
     }
 }
 @keyframes not-checked-anim {
     0% {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
     }
 }
 li, a {
@@ -258,16 +263,18 @@ aside {
 
 
 #trigger, #burger, #burger:before, #burger:after {
+    z-index: 2;
     position: absolute;
     top: 25px;
     left: 25px;
     background: $turquoise;
+    border-radius: 8px;
     width: 30px;
     height: 5px;
     transition: .2s ease;
     cursor: pointer;
-    z-index: 1;
 }
+
 #trigger {
     height: 25px;
     background: none;
@@ -303,15 +310,16 @@ aside {
     transition: transform .2s ease;
 }
 #menu {
-    position: absolute;
-    margin: 0; padding: 0;
-    width: 80px;
-    height: 80px;
-    background-color: $violet-light;
-    border-bottom-right-radius: 100%;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
-    animation: not-checked-anim .2s both;
-    transition: .2s;
+  z-index: 1;
+  position: absolute;
+  margin: 0; padding: 0;
+  width: 80px;
+  height: 80px;
+  background-color: $violet-light;
+  border-bottom-right-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+  animation: not-checked-anim .2s both;
+  transition: .2s;
 }
 #menu-toggle:checked + #trigger + #burger + #menu {
     animation: checked-anim 1s ease both;
@@ -322,3 +330,4 @@ aside {
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
     display: none;
 }
+

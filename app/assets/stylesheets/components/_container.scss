@@ -7,6 +7,7 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 48px;
 }
 
 .container-title {
@@ -53,5 +54,21 @@
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom:0px;
   }
+
+  .container-title {
+    width: 100%;
+    margin-left: 60px;
+    margin-right: 0px;
+    padding-right: 10px;
+  }
+  .container-title h1 {
+  font-size: 30px;
+}
+
 }

@@ -154,6 +154,15 @@
   }
 }
 
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .soin-card {
+    padding:0px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}
+
 .soin-card-body h4 {
   font-weight: 505;
   font-size: 19px;
@@ -193,6 +202,16 @@
   margin-bottom: 15px;
   margin-top: 30px;
   padding-left: 25px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .sous-titre {
+    margin: 2px;
+    margin-left: 13px;
+    margin-top: 20px;
+    padding: 2px;
+  }
 }
 
 .sous-titre-light {
