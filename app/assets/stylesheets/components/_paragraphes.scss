@@ -1,16 +1,15 @@
-a {
-  text-decoration: none !important;
-  color: $gray;
-
-  &:hover {
-  color: $violet;
-  }
-}
-
-
 h1  {
   color: white;
   font-size: 45px;
+}
+
+h2 {
+  color: $gray;
+}
+
+h4{
+    text-decoration: none !important;
+    color: $violet-light;
 }
 
 p, h5 {
@@ -22,12 +21,14 @@ p {
   font-weight: 510px;
 }
 
-h2 {
+a {
+  text-decoration: none !important;
   color: $gray;
+
+  &:hover {
+  color: $violet;
+  }
 }
 
-h4{
-    text-decoration: none !important;
-    color: $violet-light;
-}
+
 

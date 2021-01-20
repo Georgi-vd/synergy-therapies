@@ -227,26 +227,34 @@ $violet-light 0.5px 0.5px,
         height: 80px;
     }
 }
+
+/*ce qui décale tout*/
 li, a {
-  color: $turquoise;
   text-decoration: none;
   letter-spacing: 2px;
   font-size: 19px;
-  font-weight: 550;
-  margin: 75px 0 -55px 0;
+  font-weight: 500;
+
   line-height: 1.8;
   text-transform: none;
   list-style: none;
   outline: 0;
   display: none;
-  &:hover {
-  text-shadow: $violet-light 0.5px 0.5px,
-  }
 }
+/*ce qui décale tout dans li, a
+ margin: 75px 0 -55px 0;
+ font-weight: 550;
 
+ Mais c'est 2 trucs permettent d avoir un beau menu lateral
+ */
+
+/* les  li de contact n apparaissent plus à cause du li,a
+ */
 li {
     width: 230px;
-    text-indent: 56px;}
+    text-indent: 56px;
+}
+
 a:focus {
     display: block;
     transition: all .5s;
