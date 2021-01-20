@@ -26,26 +26,29 @@
         <label id="trigger" for="menu-toggle"></label>
         <label id="burger" for="menu-toggle"></label>
         <ul id="menu">
-          <li>
+
+          <li class ="ml-3 pt-3 mt-5 mb-2">
             <a <%=link_to "Home", root_path%></a>
           </li>
 
-          <li>
+          <li class ="ml-3 mb-2">
             <a <%=link_to "Bioénergie", bioenergie_path%></a>
           </li>
-          <li>
+
+          <li class ="ml-3 mb-2">
             <a <%=link_to "Soins", soins_path%></a>
           </li>
-          <li>
+
+          <li class ="ml-3 mb-2">
             <a <%= link_to "Ateliers", ateliers_path %></a>
           </li>
-          <li>
+          <li class ="ml-3 mb-2">
             <a <%= link_to "Activités", actus_path %></a>
           </li>
-          <li>
+          <li class ="ml-3 mb-2">
             <a <%=link_to "Thérapeute", about_path%></a>
           </li>
-          <li>
+          <li class ="ml-3 mb-2">
             <a <%= link_to "Contact", contact_path %></a>
           </li>
         </ul>
