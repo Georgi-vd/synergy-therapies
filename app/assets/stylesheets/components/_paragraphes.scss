@@ -4,7 +4,11 @@ h1  {
 }
 
 h2 {
-  color: $gray;
+  color: white;
+}
+
+h3 {
+  color: white;
 }
 
 h4{
@@ -12,7 +16,11 @@ h4{
     color: $violet-light;
 }
 
-p, h5 {
+h5 {
+  color: $middle-gray;
+}
+
+p {
   color: $middle-gray;
 }
 
