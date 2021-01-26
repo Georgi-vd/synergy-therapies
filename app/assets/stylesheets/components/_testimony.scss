@@ -80,8 +80,32 @@
     color: $turquoise;
 }
 
-// Carrousel//
+// Carrousel chien//
 
+.stackend .slide1 {
+background-image: url(antenne_Lecher.jpeg);
+color:white;
+padding:50px;
+font-size:3em;
+height:50vw;
+width:100%;
+border-radius: 14px;
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center top;
+}
 
+.stackend .slide2 {
+background-image: url(cabinet.jpeg);
+color:white;
+padding:50px;
+font-size:3em;
+height:60vw;
+width:100%;
+border-radius: 14px;
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center top;
+}
 
 

@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root to: 'products#index'
 
-  get 'about', to: 'pages#about'
+  get 'therapeute_pharmacienne_bioenergeticienne', to: 'pages#therapeute_pharmacienne_bioenergeticienne'
   get 'contact', to: 'pages#contact'
   get 'bioenergie', to: 'pages#bioenergie'
 

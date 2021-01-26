@@ -1,8 +1,9 @@
 class PagesController < ApplicationController
 
-  def about
+  def therapeute_pharmacienne_bioenergeticienne
 
   end
+
   def contact
 
   end
