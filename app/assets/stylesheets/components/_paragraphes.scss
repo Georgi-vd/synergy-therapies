@@ -5,7 +5,9 @@ h1  {
 
 h2 {
   color: white;
+  font: $body-font;
 }
+
 
 h3 {
   color: white;
@@ -38,5 +40,8 @@ a {
   }
 }
 
+#therapeute {
+  color: $middle-gray ;
+}
 
 

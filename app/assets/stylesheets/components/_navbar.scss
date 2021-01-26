@@ -216,7 +216,7 @@ $violet-light 0.5px 0.5px,
 @keyframes checked-anim {
 
     100% {
-        width: 25%;
+        width: 30%;
         height: 100%;
         border-radius: 8px;
     }
@@ -320,13 +320,19 @@ aside {
   z-index: 1;
   position: absolute;
   margin: 0; padding: 0;
-  width: 80px;
+  width: 90px;
   height: 80px;
   background-color: $violet-light;
   border-bottom-right-radius: 100%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.26);
   animation: not-checked-anim .2s both;
   transition: .2s;
+
+  #distance{
+  width: 100%;
+  animation: not-checked-anim .1s both;
+  transition: .1s;
+  }
 }
 #menu-toggle:checked + #trigger + #burger + #menu {
     animation: checked-anim 1s ease both;
@@ -337,4 +343,5 @@ aside {
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
     display: none;
 }
+
 

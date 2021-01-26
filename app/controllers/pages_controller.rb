@@ -12,4 +12,8 @@ class PagesController < ApplicationController
 
   end
 
+  def soins_a_distance
+
+  end
+
 end
