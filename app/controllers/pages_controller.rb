@@ -16,4 +16,7 @@ class PagesController < ApplicationController
 
   end
 
+  def animaux
+
+  end
 end
