@@ -1,3 +1,150 @@
+
+/*3ème navbar semi responsive sans le burger qui se deroule*/
+
+
+@media screen and (max-width:1600px) {
+  @keyframes checked-anim {
+      100% {
+          width: 30%;
+          height: 100%;
+          border-radius: 8px;
+      }
+}
+}
+
+@media screen and (max-width:890px) {
+  @keyframes checked-anim {
+      100% {
+          width: 50%;
+          height: 100%;
+          border-radius: 8px;
+      }
+}
+}
+@keyframes not-checked-anim {
+    0% {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/*ce qui décale tout*/
+li, a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 19px;
+  font-weight: 500;
+
+  line-height: 1.8;
+  text-transform: none;
+  list-style: none;
+  outline: 0;
+  display: none;
+}
+/*ce qui décale tout dans li, a
+ margin: 75px 0 -55px 0;
+ font-weight: 550;
+
+ Mais c'est 2 trucs permettent d avoir un beau menu lateral
+ */
+
+/* les  li de contact n apparaissent plus à cause du li,a
+ */
+li {
+    width: 230px;
+    text-indent: 56px;
+}
+
+a:focus {
+    display: block;
+    transition: all .5s;
+}
+
+aside {
+    position: absolute;
+    color: white;
+    top: 35%;
+    right: 10%;
+    text-align: right;
+}
+
+
+#trigger, #burger, #burger:before, #burger:after {
+    z-index: 2;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background: $turquoise;
+    border-radius: 8px;
+    width: 30px;
+    height: 5px;
+    transition: .2s ease;
+    cursor: pointer;
+}
+
+#trigger {
+    height: 25px;
+    background: none;
+}
+#burger:before {
+    content: " ";
+    top: 10px;
+    left: 0;
+}
+#burger:after {
+    content: " ";
+    top: 20px;
+    left: 0;
+}
+#menu-toggle:checked + #trigger + #burger {
+    top: 35px;
+    transform: rotate(180deg);
+    transition: transform .2s ease;
+}
+
+#menu-toggle:checked + #trigger + #burger:before {
+    width: 20px;
+    top: -2px;
+    left: 18px;
+    transform: rotate(45deg) translateX(-5px);
+    transition: transform .2s ease;
+}
+#menu-toggle:checked + #trigger + #burger:after {
+    width: 20px;
+    top: 2px;
+    left: 18px;
+    transform: rotate(-45deg) translateX(-5px);
+    transition: transform .2s ease;
+}
+#menu {
+  z-index: 1;
+  position: absolute;
+  margin: 0; padding: 0;
+  width: 90px;
+  height: 80px;
+  background-color: $violet-light;
+  border-bottom-right-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+  animation: not-checked-anim .2s both;
+  transition: .2s;
+
+  #distance{
+  width: 100%;
+  animation: not-checked-anim .1s both;
+  transition: .1s;
+  }
+}
+#menu-toggle:checked + #trigger + #burger + #menu {
+    animation: checked-anim 1s ease both;
+}
+#menu-toggle:checked + #trigger ~ #menu > li, a {
+    display: block;
+}
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    display: none;
+}
+
+
 /* première navbar
 .navbar {
   justify-content: space-between;
@@ -205,143 +352,5 @@ $violet-light 0.5px 0.5px,
 }
 
 */
-
-
-
-
-
-
-/*3ème navbar semi responsive sans le burger qui se deroule*/
-
-@keyframes checked-anim {
-
-    100% {
-        width: 30%;
-        height: 100%;
-        border-radius: 8px;
-    }
-}
-@keyframes not-checked-anim {
-    0% {
-        width: 80px;
-        height: 80px;
-    }
-}
-
-/*ce qui décale tout*/
-li, a {
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 19px;
-  font-weight: 500;
-
-  line-height: 1.8;
-  text-transform: none;
-  list-style: none;
-  outline: 0;
-  display: none;
-}
-/*ce qui décale tout dans li, a
- margin: 75px 0 -55px 0;
- font-weight: 550;
-
- Mais c'est 2 trucs permettent d avoir un beau menu lateral
- */
-
-/* les  li de contact n apparaissent plus à cause du li,a
- */
-li {
-    width: 230px;
-    text-indent: 56px;
-}
-
-a:focus {
-    display: block;
-    transition: all .5s;
-}
-
-aside {
-    position: absolute;
-    color: white;
-    top: 35%;
-    right: 10%;
-    text-align: right;
-}
-
-
-#trigger, #burger, #burger:before, #burger:after {
-    z-index: 2;
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    background: $turquoise;
-    border-radius: 8px;
-    width: 30px;
-    height: 5px;
-    transition: .2s ease;
-    cursor: pointer;
-}
-
-#trigger {
-    height: 25px;
-    background: none;
-}
-#burger:before {
-    content: " ";
-    top: 10px;
-    left: 0;
-}
-#burger:after {
-    content: " ";
-    top: 20px;
-    left: 0;
-}
-#menu-toggle:checked + #trigger + #burger {
-    top: 35px;
-    transform: rotate(180deg);
-    transition: transform .2s ease;
-}
-
-#menu-toggle:checked + #trigger + #burger:before {
-    width: 20px;
-    top: -2px;
-    left: 18px;
-    transform: rotate(45deg) translateX(-5px);
-    transition: transform .2s ease;
-}
-#menu-toggle:checked + #trigger + #burger:after {
-    width: 20px;
-    top: 2px;
-    left: 18px;
-    transform: rotate(-45deg) translateX(-5px);
-    transition: transform .2s ease;
-}
-#menu {
-  z-index: 1;
-  position: absolute;
-  margin: 0; padding: 0;
-  width: 90px;
-  height: 80px;
-  background-color: $violet-light;
-  border-bottom-right-radius: 100%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
-  animation: not-checked-anim .2s both;
-  transition: .2s;
-
-  #distance{
-  width: 100%;
-  animation: not-checked-anim .1s both;
-  transition: .1s;
-  }
-}
-#menu-toggle:checked + #trigger + #burger + #menu {
-    animation: checked-anim 1s ease both;
-}
-#menu-toggle:checked + #trigger ~ #menu > li, a {
-    display: block;
-}
-[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
-    display: none;
-}
 
 
