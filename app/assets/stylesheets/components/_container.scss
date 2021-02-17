@@ -72,3 +72,29 @@
 }
 
 }
+
+ /* Vague */
+.curved-div {
+  background: linear-gradient($turquoise, $violet);
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.curved-div h1 {
+  font-size: 6rem;
+  margin-top: 0;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.curved-div h2 {
+ margin-top: 20px;
+ margin-bottom: 0px;
+}
+
+.curved-div svg {
+  display: block;
+  margin-top: 0;
+}
+ .curved .upper {
+  margin-top: 0;
+}
