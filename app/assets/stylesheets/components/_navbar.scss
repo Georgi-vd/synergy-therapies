@@ -53,12 +53,9 @@
 
 /*ce qui décale tout*/
  #menu li, a {
-  text-decoration: none;
   letter-spacing: 2px;
   font-size: 19px;
   font-weight: 500;
-
-  line-height: 1.8;
   text-transform: none;
   list-style: none;
   outline: 0;
@@ -76,6 +73,10 @@
 #menu li {
   width: 230px;
   text-indent: 56px;
+}
+
+#menu {
+  line-height: 1.8;
 }
 
 #menu a:focus {
