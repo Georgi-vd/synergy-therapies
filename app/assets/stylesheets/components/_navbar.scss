@@ -5,18 +5,41 @@
 @media screen and (max-width:2000px) {
   @keyframes checked-anim {
       100% {
+          width: 18%;
+          height: 60%;
+          border-radius: 8px;
+      }
+}
+}
+
+@media screen and (max-width:1030px) {
+  /*Ipad pro*/
+  @keyframes checked-anim {
+      100% {
           width: 30%;
-          height: 100%;
+          height: 35%;
           border-radius: 8px;
       }
 }
 }
 
 @media screen and (max-width:890px) {
+  /*Ipad 768*/
   @keyframes checked-anim {
       100% {
-          width: 50%;
-          height: 100%;
+          width: 40%;
+          height: 50%;
+          border-radius: 8px;
+      }
+}
+}
+
+@media screen and (max-width:450px) {
+  /*Iphone 6S, Plus X, Samsung G S5*/
+  @keyframes checked-anim {
+      100% {
+          width: 68%;
+          height: 72%;
           border-radius: 8px;
       }
 }
@@ -29,7 +52,7 @@
 }
 
 /*ce qui décale tout*/
-li, a {
+ #menu li, a {
   text-decoration: none;
   letter-spacing: 2px;
   font-size: 19px;
@@ -50,71 +73,71 @@ li, a {
 
 /* les  li de contact n apparaissent plus à cause du li,a
  */
-li {
-    width: 230px;
-    text-indent: 56px;
+#menu li {
+  width: 230px;
+  text-indent: 56px;
 }
 
-a:focus {
-    display: block;
-    transition: all .5s;
+#menu a:focus {
+  display: block;
+  transition: all .5s;
 }
 
 aside {
-    position: absolute;
-    color: white;
-    top: 35%;
-    right: 10%;
-    text-align: right;
+  position: absolute;
+  color: white;
+  top: 35%;
+  right: 10%;
+  text-align: right;
 }
 
 
 #trigger, #burger, #burger:before, #burger:after {
-    z-index: 2;
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    background: $turquoise;
-    border-radius: 8px;
-    width: 30px;
-    height: 5px;
-    transition: .2s ease;
-    cursor: pointer;
+  z-index: 2;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background: $turquoise;
+  border-radius: 8px;
+  width: 30px;
+  height: 5px;
+  transition: .2s ease;
+  cursor: pointer;
 }
 
 #trigger {
-    height: 25px;
-    background: none;
+  height: 25px;
+  background: none;
 }
 #burger:before {
-    content: " ";
-    top: 10px;
-    left: 0;
+  content: " ";
+  top: 10px;
+  left: 0;
 }
 #burger:after {
-    content: " ";
-    top: 20px;
-    left: 0;
+  content: " ";
+  top: 20px;
+  left: 0;
 }
 #menu-toggle:checked + #trigger + #burger {
-    top: 35px;
-    transform: rotate(180deg);
-    transition: transform .2s ease;
+  top: 35px;
+  transform: rotate(180deg);
+  transition: transform .2s ease;
 }
 
 #menu-toggle:checked + #trigger + #burger:before {
-    width: 20px;
-    top: -2px;
-    left: 18px;
-    transform: rotate(45deg) translateX(-5px);
-    transition: transform .2s ease;
+  width: 20px;
+  top: -2px;
+  left: 18px;
+  transform: rotate(45deg) translateX(-5px);
+  transition: transform .2s ease;
 }
 #menu-toggle:checked + #trigger + #burger:after {
-    width: 20px;
-    top: 2px;
-    left: 18px;
-    transform: rotate(-45deg) translateX(-5px);
-    transition: transform .2s ease;
+  width: 20px;
+  top: 2px;
+  left: 18px;
+  transform: rotate(-45deg) translateX(-5px);
+  transition: transform .2s ease;
 }
 #menu {
   z-index: 1;
@@ -135,13 +158,13 @@ aside {
   }
 }
 #menu-toggle:checked + #trigger + #burger + #menu {
-    animation: checked-anim 1s ease both;
+  animation: checked-anim 1s ease both;
 }
 #menu-toggle:checked + #trigger ~ #menu > li, a {
-    display: block;
+  display: block;
 }
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
-    display: none;
+  display: none;
 }
 
 
