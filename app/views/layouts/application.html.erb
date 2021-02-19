@@ -158,39 +158,23 @@
 
         <!-- Footer -->
 
-        <footer class="footer font-small">
+        <footer class="footer">
 
           <div class="footer_line" >
-            <div class="container">
-
-              <!-- Grid row-->
-              <div class="row py-4 d-flex align-items-center">
-
-                <!-- Grid column -->
-                <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-                </div>
-                <!-- Grid column -->
-
-              </div>
-              <!-- Grid row-->
-
-            </div>
           </div>
 
-          <!-- Footer Links -->
-          <div class="text-center text-md-left mt-1">
+
 
             <!-- Grid row -->
             <div class="footer-container-contact-product row mt-3">
 
               <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 column-footer ">
+              <div class="col-md-2 col-lg-2 col-xl-2 ">
 
                 <!-- Links -->
 
-                <h6 class="text-uppercase border-color"><%=link_to "Energies & Guérison", root_path%></h6>
-                <div class="border"></div>
+                <h6 class=" footer-heading "><%=link_to "Energies & Guérison", root_path%></h6>
+
                 <p class= "mb-1">
                   <a href=""><%= link_to "Soins", soins_path %></a>
                 </p>
@@ -206,7 +190,7 @@
               <div class="col-md-4 col-lg-3 col-xl-3 ml-5">
 
                 <!-- Links -->
-                <h6 class="text-uppercase border-bottom border-color"  style="width: 25%;"><%= link_to "Contact", contact_path %></h6>
+                <h6 class="footer-heading"><%= link_to "Contact", contact_path %></h6>
 
                 <p class= "mb-1">
                   <a href="https://www.google.ch/maps/place/Saint-Prex/@46.4659738,6.4385357,13z/data=!3m1!4b1!4m5!3m4!1s0x478c39b501ea0fe1:0xdc0de6e932131cda!8m2!3d46.4829113!4d6.4583435 ">Saint-Prex, Vaud, Suisse</a></p>
@@ -220,17 +204,82 @@
             </div>
             <!-- Grid row -->
 
-          </div>
-          <!-- Footer Links -->
-
           <!-- Copyright -->
-          <div class=" copyright text-center text-center row">
-            <div class=" py-1">© 2021 Copyright</div>
+          <div class="text-center mt-5">
+            <p class="footer-alt mb-0 f-14">© 2021 Copyright</p>
           </div>
           <!-- Copyright -->
 
         </footer>
         <!-- Footer -->
+<br><br>
+   <!-- Footer test 2 -->
+
+   <footer class="section bg-footer">
+      <div class="footer_line" >
+      </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-white">Information</h6>
+                        <ul class="list-unstyled footer-link mt-4">
+                            <li><a href="">Pages</a></li>
+                            <li><a href="">Our Team</a></li>
+                            <li><a href="">Feuchers</a></li>
+                            <li><a href="">Pricing</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-white">Ressources</h6>
+                        <ul class="list-unstyled footer-link mt-4">
+                            <li><a href="">Monitoring Grader </a></li>
+                            <li><a href="">Video Tutorial</a></li>
+                            <li><a href="">Term &amp; Service</a></li>
+                            <li><a href="">Zeeko API</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-white">Help</h6>
+                        <ul class="list-unstyled footer-link mt-4">
+                            <li><a href="">Sign Up </a></li>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">Terms of Services</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-white">Contact Us</h6>
+
+                        <p class="contact-info mt-4"><a href="mailto:nfo@energies-et-guerison.com"></p>
+                        <p class="contact-info">+01 123-456-7890</p>
+                        <div class="mt-5">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="#"><i class="fab facebook footer-social-icon fa-facebook-f"></i></i></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <p class="footer-alt mb-0 f-14">© 2021 Copyright</p>
+        </div>
+    </footer>
+
+
       </div>
 
   </body>
