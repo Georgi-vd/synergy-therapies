@@ -72,8 +72,8 @@
           <li class ="ml-3 mb-2">
             <a <%= link_to "Animaux", animaux_path %></a>
           </li>
-          <li class ="ml-3 mb-2">
-            <a <%=link_to "Thérapeute", therapeute_pharmacienne_bioenergeticienne_path%></a>
+          <li class ="ml-3 mb-2" id="distance">
+            <a <%=link_to "Dr en pharmacie - bioénergéticienne", therapeute_pharmacienne_bioenergeticienne_path%></a>
           </li>
           <li class ="ml-3 mb-2">
             <a <%= link_to "Contact", contact_path %></a>
@@ -192,7 +192,7 @@
 
                 <!-- Links -->
 
-                <h6 class=" footer-heading">ATELIERS - INFO</h6>
+                <h6 class=" footer-heading"><%=link_to "PHARMACIENNE - BIOENERGETICIENNE", therapeute_pharmacienne_bioenergeticienne_path%></h6>
 
 
                 <p class= "mb-1">
