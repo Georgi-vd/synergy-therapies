@@ -41,24 +41,20 @@
 
 .footer-heading {
     position: relative;
-    padding-bottom: 12px;
+    padding-bottom: 7px;
 }
 
 .footer-heading:after {
     content: '';
-    width: 80px;
-    border-bottom: 2px solid $violet-light;
+    width: 66px;
     position: absolute;
     left: 0;
     bottom: 0;
     display: block;
-    border-bottom: 2px solid $violet-light;
+    border-bottom: 1px solid $violet-light;
 }
 
-.facebook {
-    background-color: $turquoise;
-    color: $violet-light;
-}
+
 /*test*/
 
 
