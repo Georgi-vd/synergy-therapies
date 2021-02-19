@@ -38,9 +38,10 @@ a {
   text-decoration: none !important;
   color: $middle-gray !important;
   font-family: $body-font !important;
+  letter-spacing: 0px;
 
   &:hover {
-  color: $violet !important;
+  color: $violet-light !important;
   }
 }
 
@@ -50,6 +51,7 @@ a {
   color: $turquoise !important;
   font-family: $headers-font !important;
   font-weight: bold;
+  letter-spacing: 1,9px;
 
   &:hover {
   color: white !important;

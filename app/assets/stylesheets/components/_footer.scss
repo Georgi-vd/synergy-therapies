@@ -1,7 +1,7 @@
 .footer {
   background-color: $turquoise;
   background-position: center;
-  opacity: .7;
+  opacity: 1;
 
 }
 
@@ -13,7 +13,7 @@
 .footer_line {
   background: linear-gradient($violet, $turquoise);
   opacity: 0.9;
-  height: 20px;
+  height: 10px;
 }
 
 .footer-copyright {
@@ -29,6 +29,7 @@
 .copyright {
   display: flex;
   justify-content: center;
+  opacity: 0.8;
 }
 
 .column-footer {
