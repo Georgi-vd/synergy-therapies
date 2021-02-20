@@ -5,15 +5,11 @@
 @media screen and (max-width:2000px) {
   @keyframes checked-anim {
     100% {
-      width: 25%;
+      width: 20%;
       height: 53%;
       border-radius: 8px;
     }
   }
-  #menu li{
-    margin-left: 14px;
-  }
-
 }
 
 @media screen and (max-width:1030px) {
@@ -24,9 +20,6 @@
       height: 35%;
       border-radius: 8px;
     }
-  }
-  #menu li{
-    margin-left: 14px;
   }
 }
 
@@ -39,9 +32,6 @@
       border-radius: 8px;
     }
   }
-  #menu li{
-    margin-left: 14px;
-  }
 }
 
 @media screen and (max-width:450px) {
@@ -53,22 +43,16 @@
       border-radius: 8px;
     }
   }
-  #menu li, a {
-    text-indent: 43px;
-  }
 }
 
 @media screen and (max-width:375px) {
   /*I phone 6, Samsung G S5*/
   @keyframes checked-anim {
     100% {
-      width: 100%;
+      width: 70%;
       height: 72%;
       border-radius: 8px;
     }
-  }
-  #menu li, a {
-    text-indent: 20px;
   }
 }
 
@@ -103,6 +87,7 @@
   width: 230px;
   text-indent: 56px;
 }
+
 
 #menu {
   line-height: 1.8;
@@ -313,9 +298,7 @@ nav{
   width: 50%;
 }
 
-.nav-links li{
-  list-style: none;
-}
+
 
 .nav-links a{
   color: $turquoise;
