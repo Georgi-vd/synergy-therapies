@@ -81,7 +81,7 @@ a {
 
 .retour-ligne-list {
   text-align: left;
-  list-style: disc;
+  list-style: disc inside;
 }
 
 ul.retour-ligne-list {
@@ -100,7 +100,6 @@ ul, li{
   font-size: 18px;
   font-family: $headers-font;
 }
-
 
 
 
