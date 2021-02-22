@@ -5,7 +5,7 @@
 @media screen and (max-width:2000px) {
   @keyframes checked-anim {
     100% {
-      width: 20%;
+      width: 14%;
       height: 53%;
       border-radius: 8px;
     }
@@ -16,7 +16,7 @@
   /*Ipad pro*/
   @keyframes checked-anim {
     100% {
-      width: 44%;
+      width: 27%;
       height: 35%;
       border-radius: 8px;
     }
@@ -27,7 +27,7 @@
   /*Ipad 768*/
   @keyframes checked-anim {
     100% {
-      width: 60%;
+      width: 30%;
       height: 50%;
       border-radius: 8px;
     }
@@ -38,7 +38,7 @@
   /*Iphone 6S, Plus X*/
   @keyframes checked-anim {
     100% {
-      width: 100%;
+      width: 60%;
       height: 63%;
       border-radius: 8px;
     }
@@ -49,8 +49,8 @@
   /*I phone 6, Samsung G S5*/
   @keyframes checked-anim {
     100% {
-      width: 70%;
-      height: 72%;
+      width: 66%;
+      height: 70%;
       border-radius: 8px;
     }
   }
