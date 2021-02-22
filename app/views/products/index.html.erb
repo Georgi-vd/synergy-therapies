@@ -83,40 +83,39 @@
         </div>
 
 
+        <div class="card text-center mb-2 pt-0">
+          <%= link_to bioenergie_path, :action => 'go' do %>
 
-          <div class="card text-center mb-2 pt-0">
-            <%= link_to bioenergie_path, :action => 'go' do %>
+            <div class="card-body pt-0">
+              <h5 class="card-title mb-3">Bioénergie</h5>
 
-              <div class="card-body pt-0">
-                <h5 class="card-title mb-3">Bioénergie</h5>
+              <img style="background-image: url('<%= image_path 'Logo_Acmos.jpg' %>'); "class="card-img-top" >
+              <p class="card-text mt-5 pt-4 mb-2"> Méthode Acmos<br> scientifique et holistique</p>
+            </div>
+           <% end %>
+        </div>
 
-                <img style="background-image: url('<%= image_path 'Logo_Acmos.jpg' %>'); "class="card-img-top" >
-                <p class="card-text mt-5 pt-4 mb-2"> Méthode Acmos<br> scientifique et holistique</p>
-              </div>
-             <% end %>
-          </div>
+        <div class="card text-center mb-2">
+          <%= link_to ateliers_path, :action => 'go' do %>
 
-          <div class="card text-center mb-2">
-            <%= link_to ateliers_path, :action => 'go' do %>
+            <div class="card-body">
+              <h5 class="card-title mb-4">Hypersensibilité</h5>
+              <img style="background-image: url('<%= image_path 'enfant_hypersensibilite_2.jpeg' %>');"class="card-img-top" >
+              <img style="background-image: url('<%= image_path 'mains-arbre.jpeg' %>');"class="card-img-top" >
+              <p class="card-text mt-3">Ateliers <br> Gestion de cette force <br> <br>Enfants <br> Adolescents <br> Adultes</p>
+            </div>
+          <% end %>
+        </div>
 
-              <div class="card-body">
-                <h5 class="card-title mb-4">Hypersensibilité</h5>
-                <img style="background-image: url('<%= image_path 'enfant_hypersensibilite_2.jpeg' %>');"class="card-img-top" >
-                <img style="background-image: url('<%= image_path 'mains-arbre.jpeg' %>');"class="card-img-top" >
-                <p class="card-text mt-3">Ateliers <br> Gestion de cette force <br> <br>Enfants <br> Adolescents <br> Adultes</p>
-              </div>
-            <% end %>
-          </div>
-      </div>
+
+    </div>
 
         <!-- code 2ème ligne de prestations -->
-      <div class="row" >
-        <div class="cards mt-2">
-
+    <div class="row" >
+      <div class="cards mt-2">
 
         <div class="card text-center mb-2">
           <%= link_to soins_a_distance_path, :action => 'go' do %>
-
               <div class="card-body">
               <h5 class="card-title mb-4">Soins à distance</h5>
               <img style="background-image: url('<%= image_path 'antenne_Lecher.jpeg' %>');"class="card-img-top" >
@@ -126,45 +125,34 @@
           <% end %>
         </div>
 
+        <div class="card text-center mb-2 pt-0">
+          <%= link_to animaux_path, :action => 'go' do %>
+            <div class="card-body">
+              <h5 class="card-title mb-4">Animaux</h5>
+              <img style="background-image: url('<%= image_path 'animaux.jpeg' %>');"class="card-img-top" >
+              <img style="background-image: url('<%= image_path 'chien.jpeg' %>');"class="card-img-top" >
+              <p class="card-text mt-3">Chiens, chats, chevaux <br> <br>Soin à distance </p>
+            </div>
+          <% end %>
+        </div>
 
-
-          <div class="card text-center mb-2 pt-0">
-            <%= link_to animaux_path, :action => 'go' do %>
-
-              <div class="card-body">
-                <h5 class="card-title mb-4">Animaux</h5>
-                <img style="background-image: url('<%= image_path 'animaux.jpeg' %>');"class="card-img-top" >
-                <img style="background-image: url('<%= image_path 'chien.jpeg' %>');"class="card-img-top" >
-                <p class="card-text mt-3">Chiens, chats, chevaux <br> <br>Soin à distance </p>
-              </div>
-            <% end %>
-          </div>
-
-
-
-          <div class="card text-center mb-2 pt-0">
-            <%= link_to actus_path, :action => 'go' do %>
-
-              <div class="card-body">
-                <h5 class="card-title mt-4 mb-3">Activités</h5>
-                <img style="background-image: url('<%= image_path 'joie.jpeg' %>');"class="card-img-top" >
-                <p class="card-text mt-3"> Evénements et sorties <br><br> Videos et articles pour vous accompagner au quotidien</p>
-              </div>
-             <% end %>
-          </div>
-
-
-      </div>
-
+        <div class="card text-center mb-2 pt-0">
+          <%= link_to actus_path, :action => 'go' do %>
+            <div class="card-body">
+              <h5 class="card-title mt-4 mb-3">Activités</h5>
+              <img style="background-image: url('<%= image_path 'joie.jpeg' %>');"class="card-img-top" >
+              <p class="card-text mt-3"> Evénements et sorties <br><br> Videos et articles pour vous accompagner au quotidien</p>
+            </div>
+          <% end %>
+        </div>
 
     </div>
-
-
+  </div>
 
 
   <!-- code Témoignages section -->
 
-  <div class="container pb-5 mb-3">
+  <div class="container pb-5 mb-3 pl-0 pr-0">
     <div class="sous-titre-light">
     <h2><i class="fas fa-feather-alt mr-2"></i> Nos chemins se sont croisés <i class="fas fa-feather-alt ml-2"></i></h2>
     </div>
