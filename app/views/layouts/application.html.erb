@@ -48,35 +48,36 @@
         <ul id="menu" style="list-style-type: outside">
 
           <li class ="pt-3 mt-5 mb-2">
-            <a <%=link_to "Home", root_path%></a>
+            <a <%=link_to "HOME", root_path%></a>
           </li>
 
           <li class ="mb-2">
-            <a <%=link_to "Bioénergie", bioenergie_path%></a>
+            <a <%=link_to "BIOENERGIE", bioenergie_path%></a>
           </li>
 
           <li class =" mb-2">
-            <a <%=link_to "Soins", soins_path%></a>
+            <a <%=link_to " - Soins", soins_path%></a>
           </li>
 
           <li class ="mb-2" id="distance">
-            <a <%=link_to "Soins à distance", soins_a_distance_path%></a>
+            <a <%=link_to " - Soins à distance", soins_a_distance_path%></a>
+          </li>
+          <li class ="mb-2">
+            <a <%= link_to "- Animaux", animaux_path %></a>
           </li>
 
           <li class ="mb-2">
-            <a <%= link_to "Ateliers", ateliers_path %></a>
+            <a <%= link_to "HYPERSENSIBILITE", ateliers_path %></a>
           </li>
           <li class ="mb-2">
-            <a <%= link_to "Activités", actus_path %></a>
+            <a <%= link_to "ART-THERAPIE", actus_path %></a>
           </li>
-          <li class ="mb-2">
-            <a <%= link_to "Animaux", animaux_path %></a>
-          </li>
+
           <li class ="mb-2" id="distance">
-            <a <%=link_to "Dr. en pharmacie ", therapeute_pharmacienne_bioenergeticienne_path%></a>
+            <a <%=link_to "DR. EN PHARMACIE ", therapeute_pharmacienne_bioenergeticienne_path%></a>
           </li>
           <li class ="mb-2">
-            <a <%= link_to "Contact", contact_path %></a>
+            <a <%= link_to "CONTACT", contact_path %></a>
           </li>
         </ul>
 
