@@ -7,46 +7,53 @@
 
   <!-- code 1ere ligne soins  -->
 <div class="container">
-  <div class="row justify-content-center">
-    <div class="sous-titre">
-    <h2><i class="fas fa-feather-alt ml-2 mr-3"></i>Adulte </h2>
-    </div>
+
 
     <div class="soin-cards">
 
       <div class="col-12 col-lg-12">
-        <%= link_to contact_path, :action => 'go' do %>
+
         <div class="soin-card text-center">
+        <%= link_to contact_path, :action => 'go' do %>
 
             <div class="soin-card-body">
 
               <h2 class="card-title">Soin bioénergétique Acmos</h2>
               <%= image_tag 'cabinet_radius.jpeg', height: '100px' %>
-              <h3 class="card-text-question">Vous êtes fatigués, stressés, un moral un peu bas  <br>ou avez des maux physiques comme des maux de dos, migraines.. <br> ?</h3>
-                <p>
-                La Méthode Acmos a pour objet de permettre au corps de reprendre le contrôle de ses circuits énergétiques afin qu'il retrouve sa capacité d'autogestion.
+              <h3 class="card-text-question">Indications </h3>
+                <p>Vous êtes fatigués, stressés, un moral un peu bas ou avez des maux physiques comme des maux de dos, migraines.. ?</p>
+                <p> Votre enfant est fatigué, anxieux, a du mal à se concentrer, à s'endormir, à trouver de la motivation ?</p>
 
-                <br>Basée entre autre sur la médecine traditionnelle chinoise, elle met en œuvre des protocoles rigoureux d'investigation et s'appuie sur des mesures scientifiques, le principe de biorésonance et la stimulation des points d'accupuncture.
-                <br> <br>En fonction des priorités de votre corps, nous réalisons des transferts énergétiques d'huiles essentielles, de minéraux, d'oligoéléments, de phyto (plantes), d'homéopathies.
+              <h3 class="card-text-question">Mécanisme d'action </h3>
+                <p>La Méthode Acmos a pour objet de permettre au corps de reprendre le contrôle de ses circuits énergétiques afin qu'il retrouve sa capacité d'autogestion. </p>
+                <p>Aujourd'hui, la médecine contemporaine s'attache à régler les désordres indiqués et confirmés par les analyses scientifiques (radiologie, IRM, chimie etc...). Ces indications, issues du corps, sont d'ordre essentiellement symptomatiques.
 
-                <br><br>La spécificité de la méthode Acmos est qu'elle agit dans le profond via l'antenne de Lecher et le bioénergéticien par la mesure et l'action sur le champ centripète - champ énergétique amenant aux symptômes.
-                <br> <br>L'action se fait donc sur la cause des symptômes et permet de déprogrammer des mémoires négatives.
-                  <br><br>
-                  A noter que le corps procède toujours par priorités. <br>De ce fait, un symptôme peut être une dégradation de plusieurs déséquilibres antérieurs.
-                  Vous pouvez donc consulter pour un symptôme lourd mais avant de le voir disparaître vous allez voir plusieurs petits déséquilibres se rééquilibrer.
-                </p>
-                <p>Schéma thérapeutique :
-                 <br><br>Souvent notre corps a engramé une façon de fonctionner avec différents blocages. La majorité des personnes qui consultent ont 2 à 3 soins rapprochés en 6 mois. Par la suite, en général, un suivi une à 2 fois par an est suffisant pour maintenir l'équilibre énergétique et être dans la prévention.
+                <br>La Méthode ACMOS ne s'arrête pas aux symptômes qui ne sont que de simples indicateurs de désordres provoqués par un problème plus profond, qu'elle s'attachera, en se basant sur des découvertes issues de la médecine quantique, à détecter afin de le corriger.</p>
+
+              <h3 class="card-text-question mb-0 pb-0">Schéma thérapeutique<h3>
+                 <p><br><br>Souvent notre corps a engramé une façon de fonctionner avec différents blocages. La majorité des personnes qui consultent ont 2 à 3 soins rapprochés en 6 mois. Par la suite, en général, un suivi une à 2 fois par an est suffisant pour maintenir l'équilibre énergétique et être dans la prévention.
                 <br><br>Ce schéma thérapeutique est indicatif. Chaque individu a ses propres besoins.
 
-                <br><br>Si vous le souhaitez, le premier soin peut être réalisé au cabinet ou à distance.
-                <br>Souvent les soins suivants sont réalisés à distance.</p>
+                <br><br>En pratique : le premier soin peut être réalisé au cabinet ou à distance.
+                Souvent les soins suivants sont réalisés à distance.</p>
+
             </div>
-            <div class = "container justify-content-center mt-4">
-              <button class="button-soin mb-3 mr-5"><%= link_to " En savoir plus sur la méthode Acmos", bioenergie_path %> </button>
-              <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i>1h15 </button>
-              <button class="button-soin mb-3 mr-5 type ="submit"><i class="fas fa-coins mr-2"></i> 150 CHF </button>
-            </div>
+
+                <h3 class="card-text-question mb-4 pb-0">Durée - Tarif<h3>
+                  <button class="button-soin  "><i class="far fa-clock mr-2 ml-2"></i> 1h15</button>
+                  <div class = "container justify-content-center mt-4 mb-0">
+                    <button class="button-soin mb-3 ">Adulte <i class="fas fa-coins ml-2 mr-2"></i> 150 CHF</button>
+                  </div>
+                  <div class = "container justify-content-center">
+                    <button class="button-soin  ">Enfant <i class="fas fa-coins ml-2 mr-2"></i> 120 CHF </button>
+                  </div>
+
+                  <div class = "container justify-content-center mt-4">
+                    <button class="button-soin "><%= link_to " En savoir plus sur la méthode Acmos", bioenergie_path %> </button>
+                  </div>
+
+            <p><sup>*</sup>Les soins chez les enfants se font uniquement avec la présence d'un parent.</p>
+
           </div>
         <% end %>
       </div>
@@ -87,46 +94,7 @@
 </div>
 
 <!-- code  soins 2ème ligne  -->
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="sous-titre">
-    <h2><i class="fas fa-feather-alt ml-2 mr-3"></i>Enfant</h2>
-    </div>
-    <div class="soin-cards">
 
-      <div class="col-12 col-lg-12">
-        <div class="soin-card text-center">
-          <%= link_to contact_path, :action => 'go' do %>
-
-            <div class="soin-card-body">
-              <h2 class="card-title">Soin bioénergétique Acmos</h2>
-              <%= image_tag 'cabinet_radius.jpeg', height: '100px' %>
-              <h3 class="card-text-question">Votre enfant est fatigué, anxieux, a du mal à se concentrer, à s'endormir, un moral un peu bas <br> ?</h3>
-                <p>La Méthode Acmos a pour objet de permettre au corps de reprendre le contrôle de ses circuits énergétiques afin qu'il retrouve sa capacité d'autogestion.
-                <br><br>Des médecins et des spécialistes du monde entier ont collaboré à l'élaboration de cette méthode.
-                <br>Basée entre autre sur la médecine traditionnelle chinoise, elle met en œuvre des protocoles rigoureux d'investigation et s'appuie sur des mesures scientifiques et le principe de biorésonance.
-                <br> En fonction des priorités de votre corps, nous réalisons des transferts énergétiques d'huiles essentielles, de minéraux, d'oligoéléments, de phyto (plantes), d'homéopathies.
-
-                <br><br>A noter que la biorésonance Acmos est différente de la biorésonance reposant sur l'utilisation d'appareils électroniques qui agissent sur les paramètres
-                physiologiques, le champs centrifuge, c'est à dire les symptomes et non la cause.
-
-                <br><br>La spécificité de la méthode Acmos est qu'elle agit dans le profond via l'antenne de Lecher et le bioénergéticien par la mesure et l'action sur le champ centripète - champ énergétique amenant aux symptômes. <br> <br>L'action se fait donc sur la cause des symptômes et permet de déprogrammer des mémoires négatives.
-                  <br></h4>
-                <p><sup>*</sup>Les soins chez les enfants se font uniquement avec la présence d'un parent.</h4>
-            </div>
-            <div class = "container justify-content-center mt-4">
-
-              <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i> 1h</button>
-              <button class="button-soin mb-3 mr-5 "><i class="fas fa-coins mr-2"></i> 120 CHF</button>
-            </div>
-          <% end %>
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-</div>
 
 
 <div class="container mb-2">
