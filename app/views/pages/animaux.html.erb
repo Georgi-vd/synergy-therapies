@@ -10,7 +10,7 @@
     <div class="sous-titre">
     <h2><i class="fas fa-feather-alt ml-5 mr-3"></i>Pour votre animal de compagnie</h2>
     </div>
-    <div class="soin-cards mb-5">
+    <div class="soin-cards ">
       <%= link_to contact_path, :action => 'go' do %>
       <div class="col-12 col-lg-12 ">
         <div class="soin-card text-center">
@@ -19,13 +19,41 @@
             <h2 class="card-title">Chiens, chats, chevaux</h2>
             <%= image_tag 'animaux.jpeg', height: '150px' %>
             <p class="mt-3 card-text">De même que pour l'être humain la méthode bioénergétique Acmos est utilisée pour le soin sur votre animal.
-              <br><br>Le corps matière de votre animal est géré par son corps énergétique. Ce dernier l'informe, par les champs énergétiques, des problèmes que lui pose le corps matière dans sa dimension physique et psychique.
-              <br><br>Le soin chez l'animal, comme pour chez l'homme, est là pour lui permettre de retrouver ses capacités d'autogestion.</p>
+            </p>
+
+            <h3 class="card-text-question">Indications thérapeutiques</h3>
+              <p>En cas de <strong>problème ponctuel, voire aigu,</strong> le soin donne sa pleine mesure dans une action de rétablir l'équilibre énergétique global afin de remettre en état les facultés d'auto-réparation de l'organisme.
+              <br><br>Le soin chez l'animal, comme pour chez l'homme, est là pour lui permettre de retrouver ses capacités d'autogestion.
+              <br><br> Recommandé pour les chiens, chats et chevaux.
+              </p>
+
+              <h3 class="card-text-question">Mécanisme d'action </h3>
+                <p>Le soin repose sur le principe de base de la physique et résonance quantiques :
+                <br>le corps matière de votre animal est géré par notre corps énergétique.
+                Ce dernier l'informe, par les champs énergétiques, des problèmes que lui pose son corps matière dans sa dimension physique et psychique.
+                <br> L'information cellulaire se propage par phénomène de résonance à l'intérieur et à l'extérieur du corps de l'animal. L'information se déplaçant sous forme d'ondes n'est assujettie ni au temps ni à l'espace. Elle peut être transférée instantanément à n'importe quelle distance.
+                <br><br>De même que le soin sur place, le soin à distance repose sur le principe de biorésonance et l'antenne de Lecher est utilisé pour la reception et l'émission des champs énergétiques. En fonction des priorités de son corps, nous réalisons des transferts énergétiques d'huiles essentielles, de minéraux, d'oligoéléments, de phyto (plantes), d'homéopathies.
+                <br><br>Ce soin agit également dans le profond, au niveau du champ centripète, siège de la cause du symptôme.
+                <br><br>
+                La méthode Acmos permet de capter les informations qui sont en permanence disponibles et présentes,
+                peu importe l'endroit où se trouve l'animal afin d'établir son bilan énergétique et de restaurer son équilibre global.
+                <br><br> L'accès à ses informations par le biais de la méthode permet :
+                  <ul>
+                    <li class= " retour-ligne-list">d'apporter des <strong>corrections</strong> ou de prendre des dispositions nécessaires au rétablissement de l'équilibre,</li>
+                    <li class= " retour-ligne-list">de mettre des <strong>protections contre les agressions</strong> de l'environnement, géobiologiques, ambiantes, écologiques, autres animaux...</li>
+                    <li class= "retour-ligne-list">et de <strong>débloquer des situations</strong>
+                  </ul>
+              <h3 class="card-text-question mb-0 pb-0">Schéma thérapeutique<h3>
+                 <p><br><br>Souvent le corps de l'animal a engramé une façon de fonctionner avec différents blocages.
+                  <br><br>La majorité des animaux qui consultent ont 2 à 3 soins rapprochés en 6 mois. Par la suite, en général, un suivi une à deux fois par an est suffisant pour maintenir l'équilibre énergétique et être dans la prévention.
+                <br><br>Ce schéma thérapeutique est indicatif. Chaque animal a ses propres besoins.
+
+                </p>
           </div>
           <div class = "container justify-content-center mb-3 mt-5">
             <button class="button-soin mb-3 mr-5 "><i class="fas fa-coins mr-2"></i> 150 CHF</button>
             <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i> 1h-1h30 </button>
-            <button class="button-soin mb-3 mr-5"><i class="fas fa-broadcast-tower"></i></button>
+
           </div>
         </div>
       <% end %>
@@ -35,7 +63,7 @@
 </div>
 
 <div class="container  ">
-  <div class="row justify-content-center mt-5">
+  <div class="row justify-content-center mt-0 pt-0">
     <div class="sous-titre">
     <h2><i class="fas fa-feather-alt ml-5 mr-3"></i>Pour tout autre animal</h2>
     </div>
