@@ -10,69 +10,7 @@
   </div>
 </div>
 
-  <!-- code quels symptomes -->
-<div class="container mb-0 ">
-  <div class="row justify-content-center mt-2">
-    <div class="sous-titre">
-    <h2><i class="fas fa-feather-alt ml-2 mr-3"></i>Pour quels symptômes ?</h2>
-    </div>
-    <div class="soin-cards mb-2">
-      <%= link_to soins_path, :action => 'go' do %>
-      <div class="col-12 col-lg-12 ">
-        <div class="soin-card text-center">
 
-          <div class="soin-card-body">
-            <h2 class="card-title">Redonner les capacités d'autogestion du corps </h2>
-              <%= image_tag 'Chemin du symptome.jpeg', height: '180px', alt: "Chemin du symptôme"%>
-
-            <p class="mt-3 card-text">
-              Aujourd'hui, la médecine contemporaine s'attache à régler les désordres indiqués et confirmés par les analyses scientifiques (radiologie, IRM, chimie etc...).
-              Ces indications, issues du corps, sont d'ordre essentiellement symptomatiques.
-
-              <br><br>La Méthode Acmos <strong>ne s'arrête pas aux symptômes</strong> qui ne sont que de simples indicateurs de désordres provoqués
-              par un problème plus profond.
-              Elle s'attachera plutôt à <strong>détecter la cause afin de la corriger</strong>, en se basant sur des découvertes issues de la médecine quantique.
-
-              <br><br>Le corps est constitué d'énergie. Chaque cellule, organe, les systèmes cardio-vasculaires, lymphatiques sont énergie. Leur bon fonctionnement est possible si un équilibre énergétique y circule.
-              <br><br>Avec la méthode Acmos, le travail énergétique <strong>agit sur la cause du désordre ainsi qu'en prévention.</strong>
-              <br><br>Pour comprendre le <strong>lien entre l'énergétique et le symptôme</strong>, l'une des informations primordiales à connaître est que :
-                les déséquilibres au niveau <strong>vibratoire</strong> (ondes, ...), engendrent des déséquilibres au niveau <strong>énergétique</strong>, puis au niveau <strong>organique</strong> et peuvent induire des <strong>lésions</strong> (pathologies systémiques, cancer...).
-                <br><br> Le rôle du bioénergéticien est de <strong>réquilibrer</strong> avec le patient les <strong>déséquilibres au niveau vibratoire et énergétique</strong> afin d'éviter les répercusions au niveau organique et lésionnel.
-
-              <br><br>A noter que le corps procède par priorités. Si un symptôme est la conséquence d'autres désordres,
-              le corps va aller rééquilibrer en premier lieu la cause du désordre, via un soin axé sur le centripète. Puis dans un second temps, le corps sera à même de rétablir le symptôme en lui même via un autre soin.
-
-            <br> <br>D'après les données cliniques, les personnes consultent généralement pour :
-              <ul>
-                <li class = "no-bullet mt-3 text-center">Asthénie, fatigue </li>
-                <li class = "no-bullet text-center">Stress</li>
-                <li class = "no-bullet text-center">Crises d'angoisses, peurs</li>
-                <li class = "no-bullet text-center">Burnout - Brownout </li>
-                <li class = "no-bullet text-center" >Baisse de moral </li>
-                <li class = "no-bullet text-center" >Insomnies </li>
-                <li class = "no-bullet text-center">Migraines </li>
-                <li class = "no-bullet text-center">Hypo et hyperthyroïdies</li>
-                <li class = "no-bullet text-center">Troubles bipolaires</li>
-                <li class = "no-bullet text-center">Hypertension artérielle</li>
-                <li class = "no-bullet text-center">Tumeur</li>
-
-              </ul></p>
-             <p>Cette liste de pathologies est non exhaustive.</p>
-
-          </div>
-
-
-          <div class = "container justify-content-center mt-4">
-            <button class="button-soin mb-3 mr-5 "> Découvrez nos soins</button>
-            <button class="button-soin mb-3 mr-5 "><%= link_to "Découvrez nos soins à distance", soins_a_distance_path %></button>
-            <button class="button-soin mb-3 mr-5"><%= link_to "Demande de renseignements", contact_path %></button>
-          </div>
-        </div>
-      <% end %>
-      </div>
-    </div>
-  </div>
-</div>
 
   <!-- code 1ere ligne soins  -->
 <div class="container mb-0">
@@ -92,6 +30,13 @@
             <%= image_tag 'cabinet_radius.jpeg', height: '100px', alt: "Energétique et scientifique"%>
             <h3 class="card-text-question">Depuis 1985 par le Dr. René Naccachian</h3>
               <p><br>La Méthode Acmos a pour objet de permettre au corps de <strong>reprendre le contrôle</strong> de ses circuits énergétiques afin qu'il retrouve <strong>sa capacité d'autogestion</strong>.
+              <br><br>Aujourd'hui, la médecine contemporaine s'attache à régler les désordres indiqués et confirmés par les analyses scientifiques (radiologie, IRM, chimie etc...).
+              Ces indications, issues du corps, sont d'ordre essentiellement symptomatiques.
+
+              <br><br>La Méthode Acmos <strong>ne s'arrête pas aux symptômes</strong> qui ne sont que de simples indicateurs de désordres provoqués
+              par un problème plus profond.
+              Elle s'attachera plutôt à <strong>détecter la cause afin de la corriger</strong>, en se basant sur des découvertes issues de la médecine quantique.
+
               <br><br>Des <strong>médecins</strong> et des spécialistes du monde entier ont collaboré à l'élaboration de cette méthode.
               <br><br>Basée entre autre sur la <strong>médecine traditionnelle chinoise</strong> et la <strong>médecine ayurvédique</strong>, elle met en œuvre des protocoles rigoureux d'investigation et s'appuie :
                 <ul class="" style="text-align: left">
@@ -120,7 +65,8 @@
               <br> <br>Effectivement, votre corps pour se rééquilibrer à besoin de se restructurer pour avoir une base solide. </p>
           </div>
           <div class = "container justify-content-center mt-4">
-            <button class="button-soin mb-3 mr-5 "> Découvrez nos soins</button>
+            <button class="button-soin mb-3 mr-5 "><%= link_to "Découvrez nos soins", soins_path %> </button>
+            <button class="button-soin mb-3 mr-5 "><%= link_to "Découvrez nos soins à distance", soins_a_distance_path %></button>
             <button class="button-soin mb-3 mr-5"><%= link_to "Demande de renseignements", contact_path %></button>
           </div>
         <% end %>
@@ -158,17 +104,74 @@
                   <br><br> Il s'agit d'une méthode non invasive, aucun produit n'est administré par voie orale durant le soin.
                 </p>
             </div>
-            <div class = "container justify-content-center mt-4">
-              <button class="button-soin mb-3 mr-5"> Découvrez nos soins</button>
-              <button class="button-soin mb-3 mr-5 type ="submit"> Demande de renseignements </button>
 
-            </div>
           </div>
         <% end %>
       </div>
     </div>
   </div>
 </div>
+
+
+  <!-- code quels symptomes -->
+<div class="container mb-0 ">
+  <div class="row justify-content-center mt-2">
+    <div class="sous-titre">
+    <h2><i class="fas fa-feather-alt ml-2 mr-3"></i>Pour quels symptômes ?</h2>
+    </div>
+    <div class="soin-cards mb-2">
+      <%= link_to soins_path, :action => 'go' do %>
+      <div class="col-12 col-lg-12 ">
+        <div class="soin-card text-center">
+
+          <div class="soin-card-body">
+            <h2 class="card-title">Redonner les capacités d'autogestion du corps </h2>
+              <%= image_tag 'Chemin du symptome.jpeg', height: '180px', alt: "Chemin du symptôme"%>
+
+            <p class="mt-3 card-text">
+
+              <br><br>Le corps est constitué d'énergie. Chaque cellule, organe, les systèmes cardio-vasculaires, lymphatiques sont énergie. Leur bon fonctionnement est possible si un équilibre énergétique y circule.
+              <br><br>Avec la méthode Acmos, le travail énergétique <strong>agit sur la cause du désordre ainsi qu'en prévention.</strong>
+              <br><br>Pour comprendre le <strong>lien entre l'énergétique et le symptôme</strong>, l'une des informations primordiales à connaître est que :
+                les déséquilibres au niveau <strong>vibratoire</strong> (ondes, ...), engendrent des déséquilibres au niveau <strong>énergétique</strong>, puis au niveau <strong>organique</strong> et peuvent induire des <strong>lésions</strong> (pathologies systémiques, cancer...).
+                <br><br> Le rôle du bioénergéticien est de <strong>réquilibrer</strong> avec le patient les <strong>déséquilibres au niveau vibratoire et énergétique</strong> afin d'éviter les répercusions au niveau organique et lésionnel.
+
+              <br><br>A noter que le corps procède par priorités. Si un symptôme est la conséquence d'autres désordres,
+              le corps va aller rééquilibrer en premier lieu la cause du désordre, via un soin axé sur le centripète. Puis dans un second temps, le corps sera à même de rétablir le symptôme en lui même via un autre soin.
+
+            <br> <br>D'après les données cliniques, les <strong>personnes consultent généralement</strong> pour :
+              <ul>
+                <li class = "no-bullet mt-3 text-center">Asthénie, fatigue </li>
+                <li class = "no-bullet text-center">Stress</li>
+                <li class = "no-bullet text-center">Crises d'angoisses, peurs</li>
+                <li class = "no-bullet text-center">Burnout - Brownout </li>
+                <li class = "no-bullet text-center" >Baisse de moral </li>
+                <li class = "no-bullet text-center" >Insomnies </li>
+                <li class = "no-bullet text-center" >Addictions </li>
+                <li class = "no-bullet text-center">Migraines </li>
+                <li class = "no-bullet text-center">Hypo et hyperthyroïdies</li>
+                <li class = "no-bullet text-center">Troubles bipolaires</li>
+                <li class = "no-bullet text-center">Hypertension artérielle</li>
+                <li class = "no-bullet text-center">Tumeur</li>
+
+              </ul></p>
+             <p>Cette liste de pathologies est non exhaustive.</p>
+
+          </div>
+
+
+          <div class = "container justify-content-center mt-4">
+            <button class="button-soin mb-3 mr-5 "> Découvrez nos soins</button>
+            <button class="button-soin mb-3 mr-5 "><%= link_to "Découvrez nos soins à distance", soins_a_distance_path %></button>
+            <button class="button-soin mb-3 mr-5"><%= link_to "Demande de renseignements", contact_path %></button>
+          </div>
+        </div>
+      <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container mb-0 ">
   <div class="row justify-content-center mt-5">
     <div class="sous-titre">
@@ -180,11 +183,31 @@
         <div class="soin-card text-center">
 
           <div class="soin-card-body">
-            <h2 class="card-title">3 temps majeurs </h2>
+            <h2 class="card-title">3 étapes clefs </h2>
             <%= image_tag 'antenne_Lecher.jpeg', height: '150px', style:"border-radius:8px" %>
 
-            <h3 class="card-text-question mb-5 pb-0">Protocole rigoureux, résultat de plus de 30 ans de recherches et d’expérimentations.<h3>
-                  <p></p>
+            <h3 class="card-text-question mb-2 pb-0">Protocole rigoureux, résultat de plus de 30 ans de recherches et de recul clinique.<h3>
+              <p>  <ol style="text-align: justify">
+                <li>Dans un premier temps, des <strong>mesures</strong> sont effectuées à l’aide d’<strong>appareils</strong>, dont obligatoirement l’antenne de Lecher,
+                  afin de <strong>détecter les dysharmonies à corriger</strong>.
+                <br><br>Il peut s’agir de <strong>trop-pleins</strong> ou de <strong>vides d’énergie</strong> dans certains méridiens, de <strong>centres énergétiques bloqués</strong>, de <strong>dissymétries</strong> énergétiques</li>
+                <br>
+                <li >Dans un deuxième temps, le bioénergéticien procédera au <strong>rétablissement de l’équilibre</strong>.
+                  <br><br>La détermination des étapes à réaliser se fait dans un <strong>ordre déterminé par le protocole</strong> Acmos,
+                  en utilisant l’antenne Lecher afin de <strong>valider</strong>, par résonance, leur <strong>adéquation</strong> avec le problème à traiter chez l’individu concerné, de ce fait, la séance est véritablement <strong>individualisée</strong>.
+                  <br><br>Dans la plupart des cas, il s’agira d'un équilibre strictement énergétique par <strong>transfert vibratoire</strong> d’un ou plusieurs des produits de la valise ACMOS (huiles essentielles, minéraux, oligo-éléments, homéopathies, phytothérapie).
+                <br> Il peut également s’agir de <strong>stimulation</strong> énergétique. </li>
+
+                <br>
+                <li>Enfin, le bioénergéticien Acmos <strong>vérifie le rétablissement</strong> de l’équilibre énergétique du sujet :
+                  <ul>
+                    <li>la remise à niveau des mesures des circuits énergétiques</li>
+                    <li>le recentrage des champs énergétiques avec l'Antenne Lecher Acmos.</li>
+                  </ul>
+                </li>
+              </ol></p>
+
+              </p>
           </div>
 
         </div>
