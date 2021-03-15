@@ -11,7 +11,7 @@
     <h2><i class="fas fa-feather-alt ml-5 mr-3"></i>Pour votre animal de compagnie</h2>
     </div>
     <div class="soin-cards ">
-      <%= link_to contact_path, :action => 'go' do %>
+
       <div class="col-12 col-lg-12 ">
         <div class="soin-card text-center">
 
@@ -46,20 +46,24 @@
                   </ul>
               <h3 class="card-text-question mb-0 pb-0">Schéma thérapeutique<h3>
                  <p><br><br>Souvent le corps de l'animal a engramé une façon de fonctionner avec différents blocages.
-                  <br><br>La majorité des animaux qui consultent ont <strong>2 à 3 soins</strong> rapprochés en 6 mois. Par la suite, en général, un suivi une à deux fois par an est suffisant pour maintenir l'équilibre énergétique et être dans la prévention.
+                  <br><br>La majorité des animaux qui consultent ont <strong>2 à 3 soins</strong> rapprochés en 6 mois. Par la suite, en général, un suivi 1 à 2 fois par an est suffisant pour maintenir l'équilibre énergétique et être dans la prévention.
                 <br><br>Ce schéma thérapeutique est <strong>indicatif</strong>. Chaque animal a ses propres besoins.
 
                 </p>
           </div>
-          <div class = "container justify-content-center mb-3 mt-5">
-            <button class="button-soin mb-3 mr-5 "><i class="fas fa-coins mr-2"></i> 150 CHF</button>
-            <button class="button-soin mb-3 mr-5"><i class="far fa-clock mr-2"></i> 1h-1h30 </button>
-          </div>
-          <div class = "container justify-content-center mt-4">
-              <button class="button-en-savoir-plus "><%= link_to " En savoir plus sur la méthode Acmos", bioenergie_path %> </button>
+          <h3 class="card-text-question  pb-0">Durée <h3>
+              <button class="button-soin  "><i class="far fa-clock mr-2 ml-2"></i> 1h15</button>
+
+          <h3 class="card-text-question mb-4 pb-0">Tarif<h3>
+            <div class = "container justify-content-center mt-4 mb-0">
+              <button class="button-soin mb-3"><i class="fas fa-coins mr-2"></i> 150 CHF</button>
+            </div>
+          <div class = "container justify-content-center mb-2 mt-4">
+              <button class="button-en-savoir-plus mb-3 mr-5 "><%= link_to " En savoir plus sur la méthode Acmos", bioenergie_path %> </button>
+              <button class="button-en-savoir-plus mb-3 mr-5"><%= link_to " Prendre rendez-vous", contact_path %> </button>
           </div>
         </div>
-      <% end %>
+
       </div>
     </div>
   </div>
@@ -87,6 +91,7 @@
     </div>
   </div>
 </div>
+
 <div class="container">
   <div class="row justify-content-center">
     <div class="soin-cards mb-5">
