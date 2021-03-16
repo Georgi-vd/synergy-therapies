@@ -149,10 +149,22 @@
   background-color: white;
   color: $middle-gray;
   margin-bottom: 25px;
+}
+
+.soin-card-contact {
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  border: 1px solid rgb(230,230,230);
+  padding: 30px;
+  padding-bottom: 0px;
+  width: 100%;
+  background-color: white;
+  color: $middle-gray;
+  margin-bottom: 25px;
 
   &:hover {
   border-radius: 8px;
-  border: 3px solid $violet-light;
+  border: 2px solid $violet-light;
   }
 }
 
