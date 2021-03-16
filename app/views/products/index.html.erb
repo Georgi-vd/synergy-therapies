@@ -78,29 +78,14 @@
     <div class="row" >
       <div class="cards mt-0">
 
-
-        <div class="card text-center mb-2 pt-0">
-          <%= link_to soins_path, :action => 'go' do %>
-
-              <div class="card-body">
-              <h5 class="card-title ">Soins</h5>
-              <img style="background-image: url('<%= image_path 'antenne_Lecher.jpeg' %>');"class="card-img-top" >
-              <img style="background-image: url('<%= image_path 'bobibus.jpeg' %>');"class="card-img-top" >
-              <p class="card-text mt-3"> Au cabinet - à distance <br> <br>
-              Bioénergie Acmos</p>
-              </div>
-          <% end %>
-        </div>
-
-
         <div class="card text-center mb-2 pt-0">
           <%= link_to bioenergie_path, :action => 'go' do %>
 
             <div class="card-body pt-0">
-              <h5 class="card-title mb-3">Bioénergie</h5>
+              <h5 class="card-title mb-3">Méthode Acmos</h5>
 
               <img style="background-image: url('<%= image_path 'Logo_Acmos.jpg' %>'); "class="card-img-top" >
-              <p class="card-text mt-5 pt-4 mb-2"> Méthode Acmos<br> scientifique et holistique</p>
+              <p class="card-text mt-5 pt-4 mb-2"> Bioénergie<br> scientifique et holistique</p>
             </div>
            <% end %>
         </div>
@@ -112,7 +97,17 @@
               <h5 class="card-title mb-4">Hypersensibilité</h5>
               <img style="background-image: url('<%= image_path 'enfant_hypersensibilite_2.jpeg' %>');"class="card-img-top" >
               <img style="background-image: url('<%= image_path 'mains-arbre.jpeg' %>');"class="card-img-top" >
-              <p class="card-text mt-3">Ateliers <br> Gestion de cette force <br> <br>Enfants <br> Adolescents <br> Adultes</p>
+              <p class="card-text mt-3">Ateliers <br> Gestion de cette <strong>force</strong> <br> <br>Enfants <br> Adolescents <br> Adultes</p>
+            </div>
+          <% end %>
+        </div>
+
+        <div class="card text-center mb-2 pt-0">
+          <%= link_to coaching_path, :action => 'go' do %>
+            <div class="card-body">
+              <h5 class="card-title mt-4 mb-3">Coaching</h5>
+              <img style="background-image: url('<%= image_path 'joie.jpeg' %>');"class="card-img-top" >
+              <p class="card-text mt-3"> Coaching de visualisation & concrétisation <br><br>Accompagnement </p>
             </div>
           <% end %>
         </div>
@@ -123,6 +118,19 @@
         <!-- code 2ème ligne de prestations -->
     <div class="row" >
       <div class="cards mt-2">
+
+        <div class="card text-center mb-2 pt-0">
+          <%= link_to soins_path, :action => 'go' do %>
+
+              <div class="card-body">
+              <h5 class="card-title ">Soins</h5>
+              <img style="background-image: url('<%= image_path 'antenne_Lecher.jpeg' %>');"class="card-img-top" >
+              <img style="background-image: url('<%= image_path 'bobibus.jpeg' %>');"class="card-img-top" >
+              <p class="card-text mt-3"> Méthode Acmos <br><br>Au cabinet
+              </p>
+              </div>
+          <% end %>
+        </div>
 
         <div class="card text-center mb-2">
           <%= link_to soins_a_distance_path, :action => 'go' do %>
@@ -141,22 +149,15 @@
               <h5 class="card-title mb-4">Animaux</h5>
               <img style="background-image: url('<%= image_path 'animaux.jpeg' %>');"class="card-img-top" >
               <img style="background-image: url('<%= image_path 'chien.jpeg' %>');"class="card-img-top" >
-              <p class="card-text mt-3">Chiens, chats, chevaux <br> <br>Soin à distance </p>
+              <p class="card-text mt-3">Méthode Acmos <br><br>Chiens, chats, chevaux  <br>& autres animaux
+               <br><br>Soins à distance </p>
             </div>
           <% end %>
         </div>
 
-        <div class="card text-center mb-2 pt-0">
-          <%= link_to actus_path, :action => 'go' do %>
-            <div class="card-body">
-              <h5 class="card-title mt-4 mb-3">Activités art-thérapeutiques</h5>
-              <img style="background-image: url('<%= image_path 'joie.jpeg' %>');"class="card-img-top" >
-              <p class="card-text mt-3"> Evénements et sorties <br> <br> Synchronisation ondes cérébrales<br> Videos et articles pour vous accompagner au quotidien</p>
-            </div>
-          <% end %>
-        </div>
 
-    </div>
+
+
   </div>
 
 
@@ -177,7 +178,7 @@
             <h2>Rosa <p>Lausanne, Suisse</p></h2>
             <h2 class="mt-3"><span>Soin à distance </span></h2>
           </div>
-          <p> "Après avoir eu le covid, il n'a pas était évident de remonter la pente, fatigue, douleurs musculaires, essouflements, pertes de mémoires...
+          <p class= "testimonial"> "Après avoir eu le covid, il n'a pas était évident de remonter la pente, fatigue, douleurs musculaires, essouflements, pertes de mémoires...
           <br> <br>Les bilans énergétiques m'ont beaucoup aidés et je retrouve depuis 4 mois une énergie croissante, un grand merci!" </p>
         </div>
       </div>

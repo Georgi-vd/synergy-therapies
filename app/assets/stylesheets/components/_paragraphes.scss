@@ -11,12 +11,12 @@ h2 {
 
 
 h3 {
-  color: $middle-gray;
+  color: $violet;
 }
 
 h4{
   text-decoration: none !important;
-  color: $middle-gray;
+  color: $violet-light;
   font-size: 18px !important;
 }
 
@@ -29,16 +29,14 @@ h6 {
   font-family: $body-font !important;
 }
 
-p {
-  color: $middle-gray;
-}
 
 p {
-  font-size: 18px;
+  font-size: 19px !important;
   font-weight: 510px;
   font-family: $headers-font !important;
-
+  color: $violet-light !important;
 }
+
 
 a {
   text-decoration: none !important;
@@ -67,9 +65,6 @@ a {
 }
 
 
-
-
-
 .footer a {
   text-decoration: none !important;
   color: $middle-gray !important;
@@ -94,6 +89,10 @@ a {
   }
 }
 
+.copyright p {
+  color: $middle-gray !important;
+  }
+
 /*therapeute page*/
 #therapeute {
   color: $middle-gray ;
@@ -101,8 +100,9 @@ a {
 
 /*contact page*/
 .ul-contact {
-  font-size:30px;
-  color: $violet-light;
+  font-size:34px;
+  color: $violet;
+  opacity: 0.8;
 }
 
 .no-bullet {
@@ -129,6 +129,7 @@ li.retour-ligne-list {
 ul, li{
   font-size: 18px;
   font-family: $headers-font;
+  color: $violet-light;
 }
 
 

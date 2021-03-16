@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'bioenergie', to: 'pages#bioenergie'
   get 'soins_a_distance', to:'pages#soins_a_distance'
   get 'animaux', to:'pages#animaux'
+  get 'coaching', to:'pages#coaching'
 
   resources :soins, only: [:index, :show]
   resources :ateliers, only: [:index, :show]

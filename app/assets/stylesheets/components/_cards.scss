@@ -23,7 +23,7 @@
   width: 30%;
   margin-right: 3px;
   flex-wrap: wrap;
-  border: 3px solid $violet-light;
+
   &:hover {
   background: linear-gradient($turquoise, $violet);
   border: 1px solid $violet-light;
@@ -31,7 +31,7 @@
 
   }
    &:hover p{
-  color: white;
+  color: white !important;
   }
    &:hover h5{
   color: white;
@@ -111,8 +111,9 @@
 .card-title-middle {
   font-size: 20px;
   font-weight: bold;
-  color: $violet-light;
+  color: $violet;
   font-style: italic;
+  opacity: 0,8;
 }
 
 

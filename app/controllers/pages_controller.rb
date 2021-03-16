@@ -19,4 +19,8 @@ class PagesController < ApplicationController
   def animaux
 
   end
+
+  def coaching
+
+  end
 end
