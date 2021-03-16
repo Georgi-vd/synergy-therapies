@@ -301,9 +301,10 @@
             <br><br> Sur les animaux nous dispensons aussi les soins à distance.
             </p>
           </div>
-          <div class = "container justify-content-center mt-4">
-            <button class="button-soin mb-3 mr-5 "> Découvrez nos soins</button>
-            <button class="button-soin mb-3 mr-5"> Demande de renseignements</button>
+          <div class = "container justify-content-center mt-5">
+            <button class="button-soin mb-3 mr-5 "><%= link_to "Découvrez nos soins", soins_path %> </button>
+            <button class="button-soin mb-3 mr-5 "><%= link_to "Découvrez nos soins à distance", soins_a_distance_path %></button>
+            <button class="button-soin mb-3 mr-5"><%= link_to "Demande de renseignements", contact_path %></button>
           </div>
         </div>
       <% end %>
