@@ -1,6 +1,61 @@
-.photogauche {
-float: left;
-width: 150px; /* largeur en pixel de ta photo */
-height:100px; /* hauteur en pixel de ta photo */
-margin-right:10px; /* marge en pixel à droite de la photo */
+
+
+@media screen and (max-width:2000px) {
+  .photogauche {
+    float: left;
+    width: 150px; /* largeur en pixel de ta photo */
+    height:100px; /* hauteur en pixel de ta photo */
+    margin-right:0px; /* marge en pixel à droite de la photo */
+
+  }
+}
+
+@media screen and (max-width:1030px) {
+  /*Ipad pro*/
+  .photogauche {
+    float: left;
+    width: 150px; /* largeur en pixel de ta photo */
+    height:100px; /* hauteur en pixel de ta photo */
+    margin-right:10px; /* marge en pixel à droite de la photo */
+  }
+}
+
+@media screen and (max-width:890px) {
+  /*Ipad 768*/
+  .photogauche {
+    float: left;
+    width: 150px; /* largeur en pixel de ta photo */
+    height:100px; /* hauteur en pixel de ta photo */
+    margin-right:10px; /* marge en pixel à droite de la photo */
+  }
+}
+
+@media screen and (max-width:450px) {
+  /*Iphone 6S, Plus X*/
+  .photogauche {
+    float: left;
+    width: 150px; /* largeur en pixel de ta photo */
+    height:100px; /* hauteur en pixel de ta photo */
+    margin-right:10px; /* marge en pixel à droite de la photo */
+  }
+}
+
+@media screen and (max-width:375px) {
+  /*I phone 6*/
+  .photogauche {
+    float: left;
+    width: 150px; /* largeur en pixel de ta photo */
+    height:100px; /* hauteur en pixel de ta photo */
+    margin-right:10px; /* marge en pixel à droite de la photo */
+  }
+}
+
+@media screen and (max-width:360px) {
+  /*I phone 5, Samsung G S5*/
+  .photogauche {
+    float: left;
+    width: 150px; /* largeur en pixel de ta photo */
+    height:100px; /* hauteur en pixel de ta photo */
+    margin-right:10px; /* marge en pixel à droite de la photo */
+  }
 }
